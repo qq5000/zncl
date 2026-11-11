@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   zncl:
-    image: zncl:latest
+    image: ghcr.io/qq5000/zncl:latest
     build:
       context: .
       dockerfile: Dockerfile

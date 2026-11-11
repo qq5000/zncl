@@ -25,9 +25,8 @@ version: '3.8'
 
 services:
   zncl:
-    # 镜像地址：将 <你的GitHub用户名> 替换为您 GitHub 上的实际用户名（例如 ghcr.io/zhangsan/zncl:latest）
-    # 若在飞牛本地直接构建，亦可将 image 换为 build: .
-    image: ghcr.io/<你的GitHub用户名>/zncl:latest
+    # GitHub Packages 官方镜像地址
+    image: ghcr.io/qq5000/zncl:latest
     container_name: zncl_app
     restart: always
     ports:
@@ -54,8 +53,8 @@ services:
 - 只要您将代码推送到 GitHub 的 `main` 分支，GitHub 云端服务器就会**全自动构建并生成 Docker 镜像并发布到 GitHub Packages (ghcr.io)**！
 - 飞牛 NAS 或任何 Linux 服务器直接拉取该镜像即可运行：
 ```bash
-# 拉取您发布在 GitHub 上的镜像（将 username 换为您的 GitHub 用户名）
-docker pull ghcr.io/<username>/zncl:latest
+# 拉取您发布在 GitHub 上的镜像
+docker pull ghcr.io/qq5000/zncl:latest
 
 # 直接运行容器
 docker run -d \
@@ -63,7 +62,7 @@ docker run -d \
   -p 8080:8080 \
   -v /vol1/1000/docker/zncl/uploads:/app/web/uploads \
   --restart always \
-  ghcr.io/<username>/zncl:latest
+  ghcr.io/qq5000/zncl:latest
 ```
 
 ---
