@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  zncl:
+    image: zncl:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: zncl_app
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      - ZNCL_PORT=8080
+      - ZNCL_ADMIN_PASSWORD=6531684
+      - ZNCL_ORGCODE=blspzzzxxx
+    volumes:
+      # 持久化存储已上传与入库的自定义录音文件及配置
+      - ./web/uploads:/app/web/uploads
+      - ./web/audio_meta.json:/app/web/audio_meta.json

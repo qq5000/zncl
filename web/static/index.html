@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>智能唱练评测 - 班主任批量工作台</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #3b82f6;
+      --card-bg: #ffffff;
+      --page-bg: #f8fafc;
+    }
+    body {
+      background-color: var(--page-bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #1e293b;
+      -webkit-font-smoothing: antialiased;
+    }
+    .navbar {
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+      background: #ffffff;
+      padding: 10px 0;
+    }
+    .navbar-brand {
+      font-size: 1.1rem;
+      letter-spacing: -0.02em;
+    }
+    .card {
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+      margin-bottom: 16px;
+      background: #ffffff;
+    }
+    .card-header {
+      background: #ffffff;
+      border-bottom: 1px solid #f1f5f9;
+      font-weight: 600;
+      padding: 12px 16px;
+      border-radius: 14px 14px 0 0 !important;
+      font-size: 0.95rem;
+    }
+    .card-body {
+      padding: 14px 16px;
+    }
+    .step-num {
+      display: inline-flex;
+      width: 24px;
+      height: 24px;
+      background: #3b82f6;
+      color: #fff;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      margin-right: 8px;
+    }
+    .log-terminal {
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      height: 280px;
+      overflow-y: auto;
+      padding: 12px;
+      border-radius: 10px;
+      line-height: 1.6;
+      word-break: break-all;
+    }
+    
+    /* 水印背景 */
+    .student-input-wrap {
+      position: relative;
+    }
+    #studentListText {
+      position: relative;
+      z-index: 2;
+      background: transparent !important;
+      line-height: 1.6;
+      font-size: 13px;
+    }
+    .student-watermark-bg {
+      position: absolute;
+      top: 9px;
+      left: 11px;
+      right: 11px;
+      bottom: 9px;
+      z-index: 1;
+      color: #94a3b8;
+      opacity: 0.45;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12.5px;
+      line-height: 1.6;
+      pointer-events: none;
+      user-select: none;
+      white-space: pre-line;
+      overflow: hidden;
+    }
+
+    /* 移动端专属微调优化 */
+    @media (max-width: 768px) {
+      .container-fluid {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+      }
+      .btn-grade-label {
+        font-size: 12px !important;
+        padding: 6px 4px !important;
+      }
+      .log-terminal {
+        height: 220px;
+      }
+      .navbar-brand {
+        font-size: 0.95rem;
+      }
+      .header-actions {
+        margin-top: 6px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- 导航栏 -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+  <div class="container-fluid px-3 px-md-4">
+    <div class="d-flex align-items-center justify-content-between w-100 flex-wrap">
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand fw-bold text-primary me-2 text-decoration-none" href="#">
+          <i class="bi bi-music-note-beamed me-1"></i>智能唱练评测 · 工作台
+        </a>
+        <span class="badge bg-success-subtle text-success d-none d-md-inline-block">纯学号直连 · 适配3-6年级</span>
+      </div>
+      <div class="header-actions d-flex align-items-center gap-2 mt-2 mt-md-0">
+        <button class="btn btn-outline-danger btn-sm" id="btnClearCache" title="换班前重置本设备任务状态与缓存">
+          <i class="bi bi-arrow-repeat me-1"></i>换班重置 / 清理缓存
+        </button>
+        <a href="/admin" class="btn btn-outline-secondary btn-sm" target="_blank" title="管理员维护音频">
+          <i class="bi bi-gear-fill me-1"></i>管理后台
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid px-3 px-md-4 py-3">
+  <div class="row g-3">
+    <!-- 左侧：年级选择、名单录入与曲目音频设置 -->
+    <div class="col-12 col-lg-5">
+      <!-- 步骤1：年级与名单 -->
+      <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <div><span class="step-num">1</span>年级选择与名单录入</div>
+          <span class="badge bg-primary-subtle text-primary" id="studentCountBadge">0 名学生</span>
+        </div>
+        <div class="card-body">
+          <div class="mb-3">
+            <label class="form-label small fw-bold text-secondary mb-1">选择年级（自动联动教材曲目库）：</label>
+            <div class="btn-group w-100" role="group" id="gradeButtonGroup">
+              <input type="radio" class="btn-check" name="gradeRadio" id="grade3" value="三年级" checked>
+              <label class="btn btn-outline-primary btn-grade-label py-1" for="grade3">三年级</label>
+
+              <input type="radio" class="btn-check" name="gradeRadio" id="grade4" value="四年级">
+              <label class="btn btn-outline-primary btn-grade-label py-1" for="grade4">四年级</label>
+
+              <input type="radio" class="btn-check" name="gradeRadio" id="grade5" value="五年级">
+              <label class="btn btn-outline-primary btn-grade-label py-1" for="grade5">五年级</label>
+
+              <input type="radio" class="btn-check" name="gradeRadio" id="grade6" value="六年级">
+              <label class="btn btn-outline-primary btn-grade-label py-1" for="grade6">六年级</label>
+            </div>
+            <div class="form-text small text-muted mt-1" id="gradeTip" style="font-size: 11.5px;">
+              当前为：<span class="fw-bold text-primary">三年级</span>，粘贴学号时若检测到其他年级将自动智能切换。
+            </div>
+          </div>
+
+          <label class="form-label text-secondary small fw-bold mb-1">从 Excel 复制学号与姓名直接粘贴在框内：</label>
+          <div class="student-input-wrap">
+            <div class="student-watermark-bg" id="watermarkBg"></div>
+            <textarea class="form-control font-monospace" id="studentListText" rows="7" placeholder=""></textarea>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mt-2 flex-wrap gap-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="defaultPwdCheck" checked>
+              <label class="form-check-label small text-muted" for="defaultPwdCheck" style="font-size: 12px;">默认初始密码统一为 888888</label>
+            </div>
+            <button class="btn btn-sm btn-outline-secondary py-0 px-2" id="btnClearStudents" style="font-size: 12px;">清空名单</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 步骤2：任务规则与音频设置 -->
+      <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <div><span class="step-num">2</span>练习任务与音频规则</div>
+          <span class="badge bg-secondary-subtle text-secondary" id="totalSongsBadge">加载中...</span>
+        </div>
+        <div class="card-body">
+          <div class="mb-3">
+            <label class="form-label small fw-bold mb-1">选定练习评测曲目（当前年级曲目库）：</label>
+            <select class="form-select form-select-sm" id="requiredSong">
+              <option value="">正在加载曲目列表...</option>
+            </select>
+            <div class="form-text small text-muted" style="font-size: 11px;">涵盖当前年级人教版、接力版、湘艺版教材全部曲目。</div>
+          </div>
+          <div class="mb-2">
+            <label class="form-label small fw-bold mb-1">打卡录音音频（必选，已彻底移除虚拟模拟）</label>
+            
+            <!-- 管理员公共库 -->
+            <div class="form-check mb-1" id="publicAudioRadioWrap" style="display: none;">
+              <input class="form-check-input" type="radio" name="audioSource" id="audioPublic" value="public" checked>
+              <label class="form-check-label small fw-bold text-success" for="audioPublic">从管理员预设音频库中选取（推荐）</label>
+            </div>
+            <div id="publicAudioSelectWrap" class="mb-2 ps-3" style="display: none;">
+              <select class="form-select form-select-sm" id="publicAudioSelect">
+                <option value="">-- 请选择管理员已上传的音频 --</option>
+              </select>
+              <div class="mt-1">
+                <audio id="publicAudioPlayer" controls style="height: 28px; width: 100%; display: none;"></audio>
+              </div>
+            </div>
+
+            <!-- 本地即时上传 -->
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="audioSource" id="audioCustom" value="custom">
+              <label class="form-check-label small" for="audioCustom">本地即时上传录音 (手机 M4A / MP3 / WAV)</label>
+            </div>
+            <div id="customAudioUploadWrap" class="mt-2 ps-3" style="display: none;">
+              <input class="form-control form-control-sm" type="file" id="customAudioFile" accept=".mp3,.m4a,.aac,.wav,.ogg">
+              <div class="form-text text-muted" id="audioUploadStatus" style="font-size: 11px;">支持手机微信/录音机导出的 m4a 格式，系统自动高保真转码</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 执行控制区 -->
+      <button class="btn btn-primary w-100 py-2 fw-bold shadow-sm mb-3" id="btnStartTask">
+        <i class="bi bi-play-fill me-1"></i>开始批量代练任务
+      </button>
+    </div>
+
+    <!-- 右侧：实时日志与进度表 -->
+    <div class="col-12 col-lg-7">
+      <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-1">
+          <div><i class="bi bi-terminal me-2"></i>批量打卡控制台实时日志</div>
+          <div>
+            <span class="badge bg-secondary" id="taskStatusBadge">就绪等待中</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="mb-3">
+            <div class="d-flex justify-content-between text-muted small mb-1">
+              <span>完成进度</span>
+              <span id="progressPercent">0%</span>
+            </div>
+            <div class="progress" style="height: 8px;">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" id="progressBar" role="progressbar" style="width: 0%"></div>
+            </div>
+          </div>
+          <div class="log-terminal mb-3" id="logTerminal">
+            <div class="text-secondary">// 欢迎使用智能唱练评测批量工作台</div>
+            <div class="text-secondary">// 任务在后台持续稳定运行，刷新网页不会丢失当前任务进度...</div>
+          </div>
+
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <h6 class="fw-bold text-secondary mb-0" style="font-size: 14px;"><i class="bi bi-table me-1"></i>打卡结果报表</h6>
+            <span class="text-muted small" id="doneCountTag" style="font-size: 12px;">共 0 条记录</span>
+          </div>
+          <div class="table-responsive" style="max-height: 280px; overflow-y: auto;">
+            <table class="table table-sm table-bordered table-hover align-middle mb-0" style="font-size: 13px;">
+              <thead class="table-light sticky-top">
+                <tr>
+                  <th style="width: 45px;">#</th>
+                  <th>学号</th>
+                  <th>姓名</th>
+                  <th style="width: 85px;">状态</th>
+                  <th>已评测曲目</th>
+                </tr>
+              </thead>
+              <tbody id="resultTableBody">
+                <tr><td colspan="5" class="text-center text-muted py-3">暂无执行结果</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let sessionId = localStorage.getItem("imusic_session_id");
+  if (!sessionId) {
+    sessionId = "sess_" + Math.random().toString(36).substring(2, 12) + Date.now().toString(36);
+    localStorage.setItem("imusic_session_id", sessionId);
+  }
+
+  let allGradesData = {};
+  let currentGrade = "三年级";
+  let customAudioFilename = null;
+  let pollInterval = null;
+  let isTaskRunning = false;
+
+  const gradePrefixMap = {
+    "24": "三年级",
+    "23": "四年级",
+    "22": "五年级",
+    "21": "六年级"
+  };
+
+  function updateWatermark(grade) {
+    let yearCode = "24";
+    if (grade === "四年级") yearCode = "23";
+    else if (grade === "五年级") yearCode = "22";
+    else if (grade === "六年级") yearCode = "21";
+
+    const demo = [
+      `086${yearCode}0501  张伟`,
+      `086${yearCode}0502  王芳`,
+      `086${yearCode}0503  李秀英`,
+      `086${yearCode}0504  刘洋`,
+      `086${yearCode}0505  陈海杰`,
+      `... (直接从 Excel 复制整列粘贴即可)`
+    ].join('\n');
+    document.getElementById("watermarkBg").innerText = demo;
+  }
+
+  // 1. 初始化拉取年级曲目数据
+  fetch('/api/grades_and_songs')
+    .then(r => r.json())
+    .then(res => {
+      if (res.success && res.data) {
+        allGradesData = res.data;
+        renderGradeSongs(currentGrade);
+      }
+    });
+
+  function renderGradeSongs(grade) {
+    currentGrade = grade;
+    updateWatermark(grade);
+
+    const gradeInfo = allGradesData[grade];
+    const select = document.getElementById("requiredSong");
+    select.innerHTML = "";
+
+    if (!gradeInfo || !gradeInfo.courses) {
+      select.innerHTML = '<option value="">暂无曲目数据</option>';
+      return;
+    }
+
+    let totalSongs = 0;
+    for (const [courseName, sList] of Object.entries(gradeInfo.courses)) {
+      const optGroup = document.createElement("optgroup");
+      optGroup.label = courseName;
+      sList.forEach(s => {
+        const opt = document.createElement("option");
+        opt.value = s.id;
+        opt.innerText = s.name;
+        if (s.name.includes("中国少年先锋队队歌")) {
+          opt.selected = true;
+        }
+        optGroup.appendChild(opt);
+        totalSongs++;
+      });
+      select.appendChild(optGroup);
+    }
+
+    if (!select.value && select.options.length > 0) {
+      select.selectedIndex = 0;
+    }
+
+    document.getElementById("totalSongsBadge").innerText = `${grade}共 ${totalSongs} 首`;
+    document.getElementById("gradeTip").innerHTML = `当前为：<span class="fw-bold text-primary">${grade}</span> (已收录人教版/接力版/湘艺版共 ${totalSongs} 首曲目)。`;
+  }
+
+  document.querySelectorAll('input[name="gradeRadio"]').forEach(radio => {
+    radio.addEventListener('change', (e) => {
+      renderGradeSongs(e.target.value);
+    });
+  });
+
+  const studentText = document.getElementById("studentListText");
+  const watermarkBg = document.getElementById("watermarkBg");
+  studentText.addEventListener("input", function() {
+    if (this.value.trim().length > 0) {
+      watermarkBg.style.display = "none";
+    } else {
+      watermarkBg.style.display = "block";
+    }
+    updateStudentCount();
+    autoDetectGrade(this.value);
+  });
+
+  function autoDetectGrade(text) {
+    const lines = text.split('\n');
+    for (const line of lines) {
+      const trimmed = line.trim();
+      const m = trimmed.match(/086(\d{2})\d+/);
+      if (m && m[1]) {
+        const detectedYear = m[1];
+        const targetGrade = gradePrefixMap[detectedYear];
+        if (targetGrade && targetGrade !== currentGrade) {
+          const targetRadio = Array.from(document.querySelectorAll('input[name="gradeRadio"]')).find(r => r.value === targetGrade);
+          if (targetRadio) {
+            targetRadio.checked = true;
+            renderGradeSongs(targetGrade);
+            break;
+          }
+        }
+      }
+    }
+  }
+
+  function updateStudentCount() {
+    const lines = studentText.value.split('\n').filter(l => l.trim().length > 0);
+    document.getElementById("studentCountBadge").innerText = lines.length + " 名学生";
+  }
+
+  document.getElementById("btnClearStudents").addEventListener("click", () => {
+    studentText.value = "";
+    watermarkBg.style.display = "block";
+    updateStudentCount();
+  });
+
+  // 音频选项与预设库加载
+  async function loadPublicAudios() {
+    try {
+      const res = await fetch("/api/public_audios");
+      const data = await res.json();
+      if (data.success && data.audios && data.audios.length > 0) {
+        document.getElementById("publicAudioRadioWrap").style.display = "block";
+        document.getElementById("publicAudioSelectWrap").style.display = "block";
+        document.getElementById("audioPublic").checked = true;
+
+        const select = document.getElementById("publicAudioSelect");
+        select.innerHTML = '<option value="">-- 请选择管理员已上传的音频 --</option>';
+        data.audios.forEach((a, idx) => {
+          const opt = document.createElement("option");
+          opt.value = a.filename;
+          opt.innerText = `${a.name} (${(a.size/1024/1024).toFixed(2)}MB)`;
+          if (idx === 0) opt.selected = true;
+          select.appendChild(opt);
+        });
+        if (data.audios.length > 0) {
+          updatePublicPlayer(data.audios[0].filename);
+        }
+      } else {
+        document.getElementById("audioCustom").checked = true;
+        document.getElementById("customAudioUploadWrap").style.display = "block";
+      }
+    } catch (e) {
+      console.warn("loadPublicAudios error", e);
+    }
+  }
+  loadPublicAudios();
+
+  const publicSelect = document.getElementById("publicAudioSelect");
+  const publicPlayer = document.getElementById("publicAudioPlayer");
+  publicSelect.addEventListener("change", (e) => {
+    updatePublicPlayer(e.target.value);
+  });
+
+  function updatePublicPlayer(filename) {
+    if (filename) {
+      publicPlayer.src = `/api/audio_file/${filename}`;
+      publicPlayer.style.display = "block";
+    } else {
+      publicPlayer.style.display = "none";
+    }
+  }
+
+  document.querySelectorAll('input[name="audioSource"]').forEach(radio => {
+    radio.addEventListener('change', (e) => {
+      document.getElementById("publicAudioSelectWrap").style.display = (e.target.value === 'public') ? 'block' : 'none';
+      document.getElementById("customAudioUploadWrap").style.display = (e.target.value === 'custom') ? 'block' : 'none';
+    });
+  });
+
+  document.getElementById("customAudioFile").addEventListener("change", async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const status = document.getElementById("audioUploadStatus");
+    status.innerText = "正在转码并上传音频...";
+    status.className = "form-text text-info small";
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("session_id", sessionId);
+
+    try {
+      const res = await fetch("/api/upload_custom_audio", { method: "POST", body: formData });
+      const data = await res.json();
+      if (data.success) {
+        customAudioFilename = data.filename;
+        status.innerText = `✔ 已就绪: ${file.name}`;
+        status.className = "form-text text-success small fw-bold";
+      } else {
+        status.innerText = "❌ 上传失败，请重试";
+        status.className = "form-text text-danger small";
+      }
+    } catch(err) {
+      status.innerText = "❌ 请求异常: " + err.message;
+      status.className = "form-text text-danger small";
+    }
+  });
+
+  // 开始批量任务
+  document.getElementById("btnStartTask").addEventListener("click", async () => {
+    const lines = studentText.value.split('\n').filter(l => l.trim().length > 0);
+    if (lines.length === 0) {
+      alert("请先粘贴学生学号与姓名！");
+      return;
+    }
+
+    const students = [];
+    for (const line of lines) {
+      const parts = line.trim().split(/[\s,，\t]+/);
+      if (parts.length >= 2) {
+        students.push({ account: parts[0], name: parts[1] });
+      } else if (parts.length === 1 && parts[0].length >= 5) {
+        students.push({ account: parts[0], name: "学生_" + parts[0].slice(-4) });
+      }
+    }
+
+    const reqSelect = document.getElementById("requiredSong");
+    const requiredSongId = reqSelect.value;
+    const requiredSongName = reqSelect.options[reqSelect.selectedIndex]?.text || "中国少年先锋队队歌";
+    const audioSource = document.querySelector('input[name="audioSource"]:checked').value;
+
+    let selectedAudioFile = null;
+    if (audioSource === 'public') {
+      const pubFile = document.getElementById("publicAudioSelect").value;
+      if (!pubFile) {
+        alert("请先从管理员预设音频库中选取一个音频！");
+        return;
+      }
+      selectedAudioFile = pubFile;
+    } else if (audioSource === 'custom') {
+      if (!customAudioFilename) {
+        alert("请先选取并上传录音文件（支持手机 m4a 或 mp3）！");
+        return;
+      }
+      selectedAudioFile = customAudioFilename;
+    }
+
+    const payload = {
+      session_id: sessionId,
+      grade: currentGrade,
+      students: students,
+      required_song_id: requiredSongId,
+      required_song_name: requiredSongName,
+      custom_audio: selectedAudioFile
+    };
+
+    setTaskRunningUI(true);
+
+    const res = await fetch("/api/start_task", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+    const data = await res.json();
+    if (!data.success) {
+      alert(data.msg || "启动失败");
+      setTaskRunningUI(false);
+      return;
+    }
+
+    startPolling();
+  });
+
+  function setTaskRunningUI(running) {
+    isTaskRunning = running;
+    const btn = document.getElementById("btnStartTask");
+    const badge = document.getElementById("taskStatusBadge");
+    if (running) {
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>正在执行批量任务 (后台继续运行)...';
+      badge.className = "badge bg-warning";
+      badge.innerText = "任务运行中";
+    } else {
+      btn.disabled = false;
+      btn.innerHTML = '<i class="bi bi-play-fill me-1"></i>开始批量代练任务';
+      badge.className = "badge bg-secondary";
+      badge.innerText = "就绪等待中";
+    }
+  }
+
+  function startPolling() {
+    if (pollInterval) clearInterval(pollInterval);
+    pollInterval = setInterval(pollTaskStatus, 1500);
+  }
+
+  // 轮询任务状态
+  async function pollTaskStatus() {
+    try {
+      const res = await fetch(`/api/task_status?session_id=${sessionId}`);
+      const st = await res.json();
+
+      if (!st.has_task) {
+        return;
+      }
+
+      if (st.is_running) {
+        if (!isTaskRunning) setTaskRunningUI(true);
+      }
+
+      // 追加新日志
+      if (st.new_logs && st.new_logs.length > 0) {
+        const terminal = document.getElementById("logTerminal");
+        st.new_logs.forEach(l => {
+          const div = document.createElement("div");
+          div.style.color = l.color;
+          div.innerText = l.msg;
+          terminal.appendChild(div);
+        });
+        terminal.scrollTop = terminal.scrollHeight;
+      }
+
+      if (st.total > 0) {
+        const percent = Math.round((st.completed / st.total) * 100);
+        document.getElementById("progressBar").style.width = percent + "%";
+        document.getElementById("progressPercent").innerText = `${percent}% (${st.completed}/${st.total})`;
+      }
+
+      if (st.records && st.records.length > 0) {
+        renderRecords(st.records);
+      }
+
+      if (st.is_finished) {
+        clearInterval(pollInterval);
+        isTaskRunning = false;
+        const btn = document.getElementById("btnStartTask");
+        btn.disabled = false;
+        btn.innerHTML = '<i class="bi bi-check-circle me-1"></i>任务已完成 (点击可再次开始)';
+        document.getElementById("taskStatusBadge").className = "badge bg-success";
+        document.getElementById("taskStatusBadge").innerText = "已完成";
+      }
+    } catch(err) {
+      console.error(err);
+    }
+  }
+
+  function renderRecords(records) {
+    const tbody = document.getElementById("resultTableBody");
+    tbody.innerHTML = "";
+    records.forEach((r, idx) => {
+      const isDone = r.status === "完成";
+      const badgeClass = isDone ? "bg-success" : (r.status === "失败" ? "bg-danger" : "bg-warning");
+      tbody.innerHTML += `
+        <tr>
+          <td>${idx + 1}</td>
+          <td class="font-monospace">${r.account}</td>
+          <td class="fw-bold">${r.name}</td>
+          <td><span class="badge ${badgeClass}">${r.status}</span></td>
+          <td class="text-secondary small">${r.songs || '-'}</td>
+        </tr>
+      `;
+    });
+    document.getElementById("doneCountTag").innerText = `已完成 ${records.length} 名学生`;
+  }
+
+  // 页面加载时自动恢复当前会话的状态与所有历史日志（保证刷新网页不丢失）
+  async function restoreSessionState() {
+    try {
+      const res = await fetch(`/api/task_status?session_id=${sessionId}`);
+      const st = await res.json();
+      if (st.has_task) {
+        // 恢复年级切换
+        if (st.grade && st.grade !== currentGrade) {
+          const r = Array.from(document.querySelectorAll('input[name="gradeRadio"]')).find(x => x.value === st.grade);
+          if (r) {
+            r.checked = true;
+            renderGradeSongs(st.grade);
+          }
+        }
+        // 恢复全部历史日志
+        if (st.all_logs && st.all_logs.length > 0) {
+          const terminal = document.getElementById("logTerminal");
+          terminal.innerHTML = "";
+          st.all_logs.forEach(l => {
+            const div = document.createElement("div");
+            div.style.color = l.color;
+            div.innerText = l.msg;
+            terminal.appendChild(div);
+          });
+          terminal.scrollTop = terminal.scrollHeight;
+        }
+        if (st.total > 0) {
+          const percent = Math.round((st.completed / st.total) * 100);
+          document.getElementById("progressBar").style.width = percent + "%";
+          document.getElementById("progressPercent").innerText = `${percent}% (${st.completed}/${st.total})`;
+        }
+        if (st.records && st.records.length > 0) {
+          renderRecords(st.records);
+        }
+        if (st.is_running) {
+          setTaskRunningUI(true);
+          startPolling();
+        } else if (st.is_finished) {
+          const btn = document.getElementById("btnStartTask");
+          btn.disabled = false;
+          btn.innerHTML = '<i class="bi bi-check-circle me-1"></i>任务已完成 (点击可再次开始)';
+          document.getElementById("taskStatusBadge").className = "badge bg-success";
+          document.getElementById("taskStatusBadge").innerText = "已完成";
+        }
+      }
+    } catch (e) {
+      console.warn("restoreSessionState error", e);
+    }
+  }
+
+  // 换班重置 / 清理缓存功能
+  document.getElementById("btnClearCache").addEventListener("click", async () => {
+    if (isTaskRunning) {
+      if (!confirm("当前还有任务正在后台运行中，确定要强制重置并清理本设备缓存吗？")) return;
+    } else {
+      if (!confirm("确定要清理当前任务结果并为新班级重置吗？")) return;
+    }
+
+    try {
+      await fetch("/api/clear_session", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ session_id: sessionId })
+      });
+    } catch(e) {}
+
+    // 生成全新独立 session
+    sessionId = "sess_" + Math.random().toString(36).substring(2, 12) + Date.now().toString(36);
+    localStorage.setItem("imusic_session_id", sessionId);
+
+    // 重置界面
+    studentText.value = "";
+    watermarkBg.style.display = "block";
+    updateStudentCount();
+    document.getElementById("logTerminal").innerHTML = `
+      <div class="text-secondary">// 欢迎使用智能唱练评测批量工作台</div>
+      <div class="text-success">// 缓存与上一班任务结果已重置，当前会话已刷新就绪</div>
+    `;
+    document.getElementById("progressBar").style.width = "0%";
+    document.getElementById("progressPercent").innerText = "0%";
+    document.getElementById("resultTableBody").innerHTML = '<tr><td colspan="5" class="text-center text-muted py-3">暂无执行结果</td></tr>';
+    document.getElementById("doneCountTag").innerText = "共 0 条记录";
+    setTaskRunningUI(false);
+  });
+
+  // 初始化
+  updateWatermark("三年级");
+  restoreSessionState();
+</script>
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智能唱练评测 - 管理员后台</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body { background-color: #f1f5f9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .card { border: none; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.05); }
+    .audio-item { transition: all 0.2s; }
+    .audio-item:hover { background-color: #f8fafc; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark sticky-top">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand fw-bold" href="#">
+      <i class="bi bi-shield-lock-fill me-2 text-warning"></i>系统管理后台 · 自定义音频资源库
+    </a>
+    <div>
+      <a href="/" class="btn btn-outline-light btn-sm me-2"><i class="bi bi-box-arrow-left me-1"></i>返回工作台前台</a>
+      <button class="btn btn-danger btn-sm" id="btnLogout" style="display: none;"><i class="bi bi-power me-1"></i>退出登录</button>
+    </div>
+  </div>
+</nav>
+
+<div class="container py-5">
+  <!-- 登录卡片 -->
+  <div class="row justify-content-center" id="loginCardRow">
+    <div class="col-md-5">
+      <div class="card p-4">
+        <div class="text-center mb-4">
+          <div class="display-5 text-primary mb-2"><i class="bi bi-person-badge"></i></div>
+          <h4 class="fw-bold">管理员安全验证</h4>
+          <p class="text-muted small">请输入系统管理密码进入后台维护音频资源</p>
+        </div>
+        <form id="loginForm">
+          <div class="mb-3">
+            <label class="form-label fw-bold">管理授权密码</label>
+            <input type="password" class="form-control" id="adminPwdInput" placeholder="请输入密码" required autofocus>
+          </div>
+          <button type="submit" class="btn btn-primary w-100 py-2 fw-bold" id="btnLogin">
+            验证并进入后台
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 管理员面板 -->
+  <div id="adminPanel" style="display: none;">
+    <div class="row g-4">
+      <!-- 左侧：上传音频 -->
+      <div class="col-md-5">
+        <div class="card">
+          <div class="card-header bg-white fw-bold py-3">
+            <i class="bi bi-cloud-arrow-up-fill me-2 text-primary"></i>上传并重命名音频
+          </div>
+          <div class="card-body">
+            <p class="text-muted small">
+              上传老师录制的纯唱或乐器音频（支持 <b>M4A / MP3 / WAV / AAC</b> 格式），后台将自动高保真转码为标准 MP3，并提供给前台班主任一键选择。
+            </p>
+            <div class="mb-3">
+              <label class="form-label fw-bold small">1. 显示名称 (前台看到的选项名称)</label>
+              <input type="text" class="form-control" id="audioCustomName" placeholder="例如：队歌-标准女声50秒 / 通用示范录音">
+            </div>
+            <div class="mb-3">
+              <label class="form-label fw-bold small">2. 选择音频文件</label>
+              <input type="file" class="form-control" id="audioUploadFile" accept=".mp3,.m4a,.aac,.wav,.ogg">
+              <div class="form-text small text-muted">支持微信手机录音 .m4a 或电脑导出的 .mp3</div>
+            </div>
+            <button class="btn btn-primary w-100 py-2 fw-bold" id="btnUploadAudio">
+              <i class="bi bi-upload me-1"></i>确认上传并入库
+            </button>
+            <div id="uploadFeedback" class="mt-2 text-center small"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 右侧：现有公共音频库列表 -->
+      <div class="col-md-7">
+        <div class="card">
+          <div class="card-header bg-white d-flex justify-content-between align-items-center py-3">
+            <span class="fw-bold"><i class="bi bi-music-note-list me-2 text-success"></i>前台可用音频资源库</span>
+            <button class="btn btn-sm btn-outline-secondary" id="btnRefreshList"><i class="bi bi-arrow-clockwise"></i> 刷新</button>
+          </div>
+          <div class="card-body p-0">
+            <div class="table-responsive">
+              <table class="table table-hover align-middle mb-0" style="font-size: 14px;">
+                <thead class="table-light">
+                  <tr>
+                    <th>显示名称</th>
+                    <th style="width: 140px;">试听</th>
+                    <th style="width: 100px;">文件大小</th>
+                    <th style="width: 80px;" class="text-center">操作</th>
+                  </tr>
+                </thead>
+                <tbody id="audioTableBody">
+                  <tr><td colspan="4" class="text-center text-muted py-4">正在加载资源列表...</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let currentPwd = localStorage.getItem("imusic_admin_pwd") || "";
+
+  if (currentPwd) {
+    checkPwd(currentPwd);
+  }
+
+  document.getElementById("loginForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const pwd = document.getElementById("adminPwdInput").value.trim();
+    if (!pwd) return;
+    checkPwd(pwd);
+  });
+
+  async function checkPwd(pwd) {
+    try {
+      const res = await fetch("/api/admin/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password: pwd })
+      });
+      const data = await res.json();
+      if (data.success) {
+        currentPwd = pwd;
+        localStorage.setItem("imusic_admin_pwd", pwd);
+        showAdminPanel();
+      } else {
+        alert(data.msg || "密码错误！");
+        localStorage.removeItem("imusic_admin_pwd");
+      }
+    } catch (err) {
+      alert("验证请求失败: " + err.message);
+    }
+  }
+
+  function showAdminPanel() {
+    document.getElementById("loginCardRow").style.display = "none";
+    document.getElementById("adminPanel").style.display = "block";
+    document.getElementById("btnLogout").style.display = "inline-block";
+    loadAudioList();
+  }
+
+  document.getElementById("btnLogout").addEventListener("click", () => {
+    localStorage.removeItem("imusic_admin_pwd");
+    location.reload();
+  });
+
+  // 加载音频列表
+  async function loadAudioList() {
+    const tbody = document.getElementById("audioTableBody");
+    tbody.innerHTML = '<tr><td colspan="4" class="text-center text-muted py-4"><span class="spinner-border spinner-border-sm me-2"></span>加载中...</td></tr>';
+    try {
+      const res = await fetch("/api/public_audios");
+      const data = await res.json();
+      if (data.success && data.audios && data.audios.length > 0) {
+        tbody.innerHTML = "";
+        data.audios.forEach(item => {
+          tbody.innerHTML += `
+            <tr class="audio-item">
+              <td>
+                <div class="fw-bold text-dark">${item.name}</div>
+                <div class="text-muted small font-monospace">${item.filename}</div>
+              </td>
+              <td>
+                <audio controls src="/api/audio_file/${item.filename}" style="height: 32px; width: 140px;"></audio>
+              </td>
+              <td class="text-secondary small">${(item.size / 1024 / 1024).toFixed(2)} MB</td>
+              <td class="text-center">
+                <button class="btn btn-sm btn-outline-danger" onclick="deleteAudio('${item.id}', '${item.name}')">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </td>
+            </tr>
+          `;
+        });
+      } else {
+        tbody.innerHTML = '<tr><td colspan="4" class="text-center text-muted py-4">暂无自定义音频，请在左侧上传添加</td></tr>';
+      }
+    } catch (err) {
+      tbody.innerHTML = `<tr><td colspan="4" class="text-center text-danger py-4">加载失败: ${err.message}</td></tr>`;
+    }
+  }
+
+  document.getElementById("btnRefreshList").addEventListener("click", loadAudioList);
+
+  // 上传音频
+  document.getElementById("btnUploadAudio").addEventListener("click", async () => {
+    const nameInput = document.getElementById("audioCustomName");
+    const fileInput = document.getElementById("audioUploadFile");
+    const fb = document.getElementById("uploadFeedback");
+
+    const customName = nameInput.value.trim();
+    const file = fileInput.files[0];
+
+    if (!customName) {
+      alert("请填写音频显示名称！");
+      nameInput.focus();
+      return;
+    }
+    if (!file) {
+      alert("请选取音频文件！");
+      return;
+    }
+
+    const btn = document.getElementById("btnUploadAudio");
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>正在转码并上传...';
+    fb.className = "mt-2 text-center small text-info";
+    fb.innerText = "正在转码为标准音频并入库...";
+
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("name", customName);
+    formData.append("password", currentPwd);
+
+    try {
+      const res = await fetch("/api/admin/upload_audio", {
+        method: "POST",
+        body: formData
+      });
+      const data = await res.json();
+      if (data.success) {
+        fb.className = "mt-2 text-center small text-success";
+        fb.innerText = "✔ 上传并重命名成功！前台已可直接选用。";
+        nameInput.value = "";
+        fileInput.value = "";
+        loadAudioList();
+      } else {
+        fb.className = "mt-2 text-center small text-danger";
+        fb.innerText = "❌ " + (data.msg || "上传失败");
+      }
+    } catch (err) {
+      fb.className = "mt-2 text-center small text-danger";
+      fb.innerText = "❌ 请求异常: " + err.message;
+    } finally {
+      btn.disabled = false;
+      btn.innerHTML = '<i class="bi bi-upload me-1"></i>确认上传并入库';
+    }
+  });
+
+  // 删除音频
+  window.deleteAudio = async function(audioId, name) {
+    if (!confirm(`确定要删除音频【${name}】吗？前台将不再显示此音频。`)) return;
+    try {
+      const res = await fetch("/api/admin/delete_audio", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: audioId, password: currentPwd })
+      });
+      const data = await res.json();
+      if (data.success) {
+        loadAudioList();
+      } else {
+        alert(data.msg || "删除失败");
+      }
+    } catch(err) {
+      alert("删除失败: " + err.message);
+    }
+  };
+</script>
+</body>
+</html>

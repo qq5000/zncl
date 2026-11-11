@@ -1,0 +1,5346 @@
+{
+  "三年级": {
+    "grade_code": "24",
+    "sample_account": "086240501",
+    "student_name": "陈海杰",
+    "person_id": "P46bf0f45e5ea4aa8841",
+    "courses": {
+      "三年级演唱（人教版）": [
+        {
+          "name": "编花篮",
+          "id": "e6885ca0bb0c405e9a389c25bb97350a",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "乘着歌声的翅膀",
+          "id": "9612210ddaa24e3fa00ec3a34a588db6",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "春游",
+          "id": "73aac68ddd3543feb26eb8758b55c28d",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "大逛灯",
+          "id": "edb851f028164f27a99c98268e5e81d5",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "嘀哩嘀哩",
+          "id": "339377d530754390bf2f88460bb37c2a",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "花蛤蟆",
+          "id": "cc4632a859bf4da2af7ea5a412b4d605",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "交城山",
+          "id": "083c6ce221834c338dd53e2af180d939",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "桔梗谣",
+          "id": "f30c752a67fb468fa9f3786fc581c0aa",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "军民大生产",
+          "id": "c5cf81a551084991b45b2d881a7b78a8",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "龙里格龙",
+          "id": "6594f072c3a345768380e5d6f6f020aa",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "梅花",
+          "id": "4632fc64644444018ebe1b6e2e1328d3",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "美丽的家乡",
+          "id": "c4e7329604a24d0a9423086ba0230977",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "南泥湾",
+          "id": "7ae6b09ed80d49eab90e4fe66f2c5c98",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "泉水叮咚响",
+          "id": "e0c1525c31444a85ba06c97b9b94ba5b",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "送别",
+          "id": "8645d3a30736489697b326d26572f9a2",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "甜甜的秘密",
+          "id": "f86bd1d3a360418b89b4ed9f0c9ea0f6",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "我爱米兰",
+          "id": "ab45e49816224fa5aab33db33d4f4a10",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "我和你",
+          "id": "d32a062cfa5f44d8a91e583687c623a6",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "小放牛",
+          "id": "4f2f250a0dfe43f2b17c8758ed6e1e56",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "新东北风",
+          "id": "fcb999c83f3b457da80c3817d040f0e9",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "雪花",
+          "id": "b6593ecdef5e409fb4ef29e2bbd2f714",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "阳关三叠",
+          "id": "6230ffbe56b24d2eba9ea5407b138a92",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "爷爷为我打月饼",
+          "id": "45042ec848e149878c426dd282670f8c",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "鱼戏莲叶间",
+          "id": "4c10c301822445ffae9cac5503f767bd",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "愉快的梦",
+          "id": "fa1a2713b2ab45f2ba5fc410014d3205",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "月亮，月亮",
+          "id": "e8886834b7da40c7b659d1c61ef62887",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "正对花",
+          "id": "38ee3dee5c894f1f8fea1cc1593a836a",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        },
+        {
+          "name": "中国少年先锋队队歌",
+          "id": "a3e3285bdcb649d3aef08696c5ff64ae",
+          "course_id": "CO39cb5333f11d4d818a5bdf98ddde90"
+        }
+      ],
+      "三年级演唱（接力版）": [
+        {
+          "name": "阿 西 里 西",
+          "id": "fe1651f13a3a49948fe99a55f6c3bfdc",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "阿里里",
+          "id": "21a246e4ff6a4a4fab819efa9a4b3e77",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "板凳龙",
+          "id": "874c216a30954304b87f4d94f9dec7dc",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "贝壳之歌",
+          "id": "f30c0c837ca14d61a7990282b15cc973",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "捕鱼歌",
+          "id": "2fde5e51b0c34c19a7c1fd21b7ce0a2b",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "猜谜谣",
+          "id": "7d363a857cd3412d944f2b38464851d2",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "采贝歌",
+          "id": "0c5e6d9f707d4c29acea6131923e1a5f",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "采茶扑蝶",
+          "id": "d159e3b8c016402f9aed70591300d47b",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "聪明的阿凡提",
+          "id": "1f175386cec2403385cf863989668396",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "大钟和小钟",
+          "id": "f2d5f49b51fc48dbba7acd3dd4417eff",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "嘀哩嘀哩",
+          "id": "8384236b177a4675ba25795d7b5c560c",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "多快乐呀,多幸福",
+          "id": "4af14753f50f477d8abbfd39b4b2e350",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "何家公鸡何家猜",
+          "id": "5e56a06a20e3449e806887f4a175e51b",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "拉山号子",
+          "id": "062e5c9331d146a9a499185d351e4416",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "两只小象",
+          "id": "b6c50810cf2b42ff8f163287e5d6f7d3",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "蚂蚁短，蚂蚁长",
+          "id": "e3f6d9ace8b9409992c544cc4e43736a",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "牧童之歌",
+          "id": "6856a20ecd214cb9a751f6ca3063ffce",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "螃 蟹 歌",
+          "id": "f3e42ab5cbcd4d40b69704b0b7e8a8bb",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "时间像小马车",
+          "id": "51274cdf73344f6184e9f6fdf1f542eb",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "睡吧小宝贝",
+          "id": "8f93249e1d714010951b0ad8728251b6",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "跳呀，快来跳舞",
+          "id": "ebdf784202684b34a9145eb5727e4e17",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "同 坐 小 竹 排",
+          "id": "ac3e3020b79540d9beca1083996e044a",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "娃哈哈",
+          "id": "83e3b5d3132140648dc8b38c75ab84b6",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "维也纳的音乐钟",
+          "id": "8f9e784be2fc4020b2f94fb8e825e044",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "问答歌",
+          "id": "274ce11c0f594834872718c36825c2c4",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "我爱家乡，我爱祖国",
+          "id": "177ff53b3a7a4106b8de04b9cd8db523",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "我给太阳唱支歌",
+          "id": "fb7cfc00ea224142966bdb0a8e741a56",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "我是小小音乐家",
+          "id": "ebf9b2c394aa486da42dfc8ce728aa1d",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "小 傩 面",
+          "id": "44bd6fdb4cac4329a7412a689d7aadaf",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "小放牛",
+          "id": "ef7fc3f6443b41cc8c57f57196a3e61d",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "小蜜蜂",
+          "id": "9606904762c7499096c7278e30d2500f",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "小闹钟",
+          "id": "f6d9718e2058449cbbf3822e5e0e2df7",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "小朋友爱祖国",
+          "id": "5198812dd8334ad7b2844093a747595a",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "小乌鸦爱妈妈",
+          "id": "6750a427884d463487875d3b40ea59f3",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "小小雨点",
+          "id": "aac14118223342b992d4f019979f0c8f",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "小星星",
+          "id": "08b8b3f20ccc4ac18a43d89b1a4fbd94",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "小圆号",
+          "id": "39e86ebe09ba44b69f01f35821618a2d",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "行花街",
+          "id": "863581757c15467c8d3e1b12fca54ce3",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "摇船调",
+          "id": "7d7dd6d27c834d4ea937f9a3e53f5383",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "爷 爷 为 我 打 月 饼",
+          "id": "622f8957214e45d0ae2c91775bb337fb",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "咏 鹅",
+          "id": "8982448629b94c379a2c6b98893b56e7",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "月儿弯弯",
+          "id": "e418074189734b128237cfcf04876a35",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        },
+        {
+          "name": "捉 猫 猫",
+          "id": "8a63a0aedf544664b2d52b5967c41e79",
+          "course_id": "CO40f0efc060b04843b4e9733aa3d41b"
+        }
+      ],
+      "三年级演唱（湘艺版）": [
+        {
+          "name": "阿凡提骑驴",
+          "id": "89b3a60129d14f39b3e8dadb15206f81",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "阿西里西",
+          "id": "9e9afeffe5af4b588eecba24c4325bf7",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "白鸽",
+          "id": "44c2dcefa4814012b48d6494c213f403",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "贝壳之歌",
+          "id": "314b09497d1f4702b74861010df58a3c",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "草原就是我的家",
+          "id": "6245259b5ee048c5bdfb784c420fb319",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "春晓",
+          "id": "b960e149b9544cd3b6a63ccb1610ec94",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "对十",
+          "id": "ec4952b39b0045fa9fcb461f767e0496",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "多快乐呀多幸福",
+          "id": "072e42cd5ff34f4081f0e0946a177ec7",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "凤阳花鼓",
+          "id": "83e1992ea7a542f3b0398ccb8c2fb117",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "恭喜恭喜",
+          "id": "598cb76e2d334f8ba7a679b63031428f",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "好朋友",
+          "id": "39b263d3f0684b33b8b2bf1f1e4510b2",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "剪窗花",
+          "id": "7b057f7149d44c938ff01d82b6ed4ca9",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "剪羊毛",
+          "id": "4163414fc6944afdaff2679d6f48e13b",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "交城山",
+          "id": "c63f4273b24a414b8d8ba4dc325b6afb",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "静夜思",
+          "id": "e78639f47f06437cb6894a3b16e52d4c",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "老爷爷赶鹅",
+          "id": "793fa4f802a844c5a55ff539a37ef08b",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "锣鼓歌",
+          "id": "afdcc43b2cc44d839ce1c8412fca49a9",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "苗家儿童庆丰收",
+          "id": "b94356b1075d4be294b35c4cb7d1ca9d",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "悯农",
+          "id": "e2765a19c00948dc82039bc1f88aba58",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "牧羊女",
+          "id": "5c14f2756fee4740bf9ee2f6d86a4359",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "螃蟹歌",
+          "id": "8f476669f5fb4112bb72652bf0adde4d",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "十二生肖歌",
+          "id": "ffd4c1e8fe6b4d5f84f379eb14f3db40",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "时间像小马车",
+          "id": "5b113d1226cf4d439c646d584c5ca8e5",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "数蛤蟆",
+          "id": "60d6863621364a8ebb7692d8a727c1b0",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "天天多欢畅",
+          "id": "3abc3b5e489b48569977a6c4324614ac",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "顽皮的小杜鹃",
+          "id": "63ac222f5bec4024ba514184229b280b",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "王老先生",
+          "id": "8ef68e61ba5441e0bc9a06b2d6196d33",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "我们和祖国最亲亲",
+          "id": "4c85445c057045e781eb9e82602b962c",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "我们要做雷锋式的好少年",
+          "id": "7659d888d1cb494ebbaf884cd988c957",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "箫",
+          "id": "09567a27fa0a4190b4e6abadc4e4ecc4",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "小拜年",
+          "id": "5d8d580912554ff38b601f4a392a89c8",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "小花雀",
+          "id": "b4f7cc18fa8f43ec8058109f3cd0b017",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "小毛驴爬山坡",
+          "id": "c9279ce834f04e6abcde71911abe6a25",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "小伞花",
+          "id": "86dfdc8c3704447ba38ddda92d4b141d",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "小乌龟飞上天",
+          "id": "50509c738f6e4efb9b2e0426397debb1",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "小叶子",
+          "id": "bba290cce39b4224ac424560ce4f1e67",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "小雨沙沙",
+          "id": "32f2338aaac34a4babe9e127218cc25e",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "幸福拍手歌",
+          "id": "10d7cd41b4cc4c66bd36487395f87106",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "学我做",
+          "id": "652df0c149b84278b40bc55b9c9cceb9",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "学习雷锋好榜样",
+          "id": "49c6e5c2838540cc8bd8b1409681c0b5",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "彝家娃娃真幸福",
+          "id": "19d6731e8f1e49c99109c208461eea92",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        },
+        {
+          "name": "咏鹅",
+          "id": "80e402f7ab4548a39c9c202a0693ad84",
+          "course_id": "CO948d27be0dfc4a7197679ac7a0a017"
+        }
+      ]
+    },
+    "all_songs": [
+      {
+        "name": "编花篮",
+        "id": "e6885ca0bb0c405e9a389c25bb97350a",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "乘着歌声的翅膀",
+        "id": "9612210ddaa24e3fa00ec3a34a588db6",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "春游",
+        "id": "73aac68ddd3543feb26eb8758b55c28d",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "大逛灯",
+        "id": "edb851f028164f27a99c98268e5e81d5",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "嘀哩嘀哩",
+        "id": "339377d530754390bf2f88460bb37c2a",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "花蛤蟆",
+        "id": "cc4632a859bf4da2af7ea5a412b4d605",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "交城山",
+        "id": "083c6ce221834c338dd53e2af180d939",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "桔梗谣",
+        "id": "f30c752a67fb468fa9f3786fc581c0aa",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "军民大生产",
+        "id": "c5cf81a551084991b45b2d881a7b78a8",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "龙里格龙",
+        "id": "6594f072c3a345768380e5d6f6f020aa",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "梅花",
+        "id": "4632fc64644444018ebe1b6e2e1328d3",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "美丽的家乡",
+        "id": "c4e7329604a24d0a9423086ba0230977",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "南泥湾",
+        "id": "7ae6b09ed80d49eab90e4fe66f2c5c98",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "泉水叮咚响",
+        "id": "e0c1525c31444a85ba06c97b9b94ba5b",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "送别",
+        "id": "8645d3a30736489697b326d26572f9a2",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "甜甜的秘密",
+        "id": "f86bd1d3a360418b89b4ed9f0c9ea0f6",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "我爱米兰",
+        "id": "ab45e49816224fa5aab33db33d4f4a10",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "我和你",
+        "id": "d32a062cfa5f44d8a91e583687c623a6",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "小放牛",
+        "id": "4f2f250a0dfe43f2b17c8758ed6e1e56",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "新东北风",
+        "id": "fcb999c83f3b457da80c3817d040f0e9",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "雪花",
+        "id": "b6593ecdef5e409fb4ef29e2bbd2f714",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "阳关三叠",
+        "id": "6230ffbe56b24d2eba9ea5407b138a92",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "爷爷为我打月饼",
+        "id": "45042ec848e149878c426dd282670f8c",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "鱼戏莲叶间",
+        "id": "4c10c301822445ffae9cac5503f767bd",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "愉快的梦",
+        "id": "fa1a2713b2ab45f2ba5fc410014d3205",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "月亮，月亮",
+        "id": "e8886834b7da40c7b659d1c61ef62887",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "正对花",
+        "id": "38ee3dee5c894f1f8fea1cc1593a836a",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "中国少年先锋队队歌",
+        "id": "a3e3285bdcb649d3aef08696c5ff64ae",
+        "course_name": "三年级演唱（人教版）"
+      },
+      {
+        "name": "阿 西 里 西",
+        "id": "fe1651f13a3a49948fe99a55f6c3bfdc",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "阿里里",
+        "id": "21a246e4ff6a4a4fab819efa9a4b3e77",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "板凳龙",
+        "id": "874c216a30954304b87f4d94f9dec7dc",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "贝壳之歌",
+        "id": "f30c0c837ca14d61a7990282b15cc973",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "捕鱼歌",
+        "id": "2fde5e51b0c34c19a7c1fd21b7ce0a2b",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "猜谜谣",
+        "id": "7d363a857cd3412d944f2b38464851d2",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "采贝歌",
+        "id": "0c5e6d9f707d4c29acea6131923e1a5f",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "采茶扑蝶",
+        "id": "d159e3b8c016402f9aed70591300d47b",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "聪明的阿凡提",
+        "id": "1f175386cec2403385cf863989668396",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "大钟和小钟",
+        "id": "f2d5f49b51fc48dbba7acd3dd4417eff",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "嘀哩嘀哩",
+        "id": "8384236b177a4675ba25795d7b5c560c",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "多快乐呀,多幸福",
+        "id": "4af14753f50f477d8abbfd39b4b2e350",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "何家公鸡何家猜",
+        "id": "5e56a06a20e3449e806887f4a175e51b",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "拉山号子",
+        "id": "062e5c9331d146a9a499185d351e4416",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "两只小象",
+        "id": "b6c50810cf2b42ff8f163287e5d6f7d3",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "蚂蚁短，蚂蚁长",
+        "id": "e3f6d9ace8b9409992c544cc4e43736a",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "牧童之歌",
+        "id": "6856a20ecd214cb9a751f6ca3063ffce",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "螃 蟹 歌",
+        "id": "f3e42ab5cbcd4d40b69704b0b7e8a8bb",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "时间像小马车",
+        "id": "51274cdf73344f6184e9f6fdf1f542eb",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "睡吧小宝贝",
+        "id": "8f93249e1d714010951b0ad8728251b6",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "跳呀，快来跳舞",
+        "id": "ebdf784202684b34a9145eb5727e4e17",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "同 坐 小 竹 排",
+        "id": "ac3e3020b79540d9beca1083996e044a",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "娃哈哈",
+        "id": "83e3b5d3132140648dc8b38c75ab84b6",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "维也纳的音乐钟",
+        "id": "8f9e784be2fc4020b2f94fb8e825e044",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "问答歌",
+        "id": "274ce11c0f594834872718c36825c2c4",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "我爱家乡，我爱祖国",
+        "id": "177ff53b3a7a4106b8de04b9cd8db523",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "我给太阳唱支歌",
+        "id": "fb7cfc00ea224142966bdb0a8e741a56",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "我是小小音乐家",
+        "id": "ebf9b2c394aa486da42dfc8ce728aa1d",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "小 傩 面",
+        "id": "44bd6fdb4cac4329a7412a689d7aadaf",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "小放牛",
+        "id": "ef7fc3f6443b41cc8c57f57196a3e61d",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "小蜜蜂",
+        "id": "9606904762c7499096c7278e30d2500f",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "小闹钟",
+        "id": "f6d9718e2058449cbbf3822e5e0e2df7",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "小朋友爱祖国",
+        "id": "5198812dd8334ad7b2844093a747595a",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "小乌鸦爱妈妈",
+        "id": "6750a427884d463487875d3b40ea59f3",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "小小雨点",
+        "id": "aac14118223342b992d4f019979f0c8f",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "小星星",
+        "id": "08b8b3f20ccc4ac18a43d89b1a4fbd94",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "小圆号",
+        "id": "39e86ebe09ba44b69f01f35821618a2d",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "行花街",
+        "id": "863581757c15467c8d3e1b12fca54ce3",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "摇船调",
+        "id": "7d7dd6d27c834d4ea937f9a3e53f5383",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "爷 爷 为 我 打 月 饼",
+        "id": "622f8957214e45d0ae2c91775bb337fb",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "咏 鹅",
+        "id": "8982448629b94c379a2c6b98893b56e7",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "月儿弯弯",
+        "id": "e418074189734b128237cfcf04876a35",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "捉 猫 猫",
+        "id": "8a63a0aedf544664b2d52b5967c41e79",
+        "course_name": "三年级演唱（接力版）"
+      },
+      {
+        "name": "阿凡提骑驴",
+        "id": "89b3a60129d14f39b3e8dadb15206f81",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "阿西里西",
+        "id": "9e9afeffe5af4b588eecba24c4325bf7",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "白鸽",
+        "id": "44c2dcefa4814012b48d6494c213f403",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "贝壳之歌",
+        "id": "314b09497d1f4702b74861010df58a3c",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "草原就是我的家",
+        "id": "6245259b5ee048c5bdfb784c420fb319",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "春晓",
+        "id": "b960e149b9544cd3b6a63ccb1610ec94",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "对十",
+        "id": "ec4952b39b0045fa9fcb461f767e0496",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "多快乐呀多幸福",
+        "id": "072e42cd5ff34f4081f0e0946a177ec7",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "凤阳花鼓",
+        "id": "83e1992ea7a542f3b0398ccb8c2fb117",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "恭喜恭喜",
+        "id": "598cb76e2d334f8ba7a679b63031428f",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "好朋友",
+        "id": "39b263d3f0684b33b8b2bf1f1e4510b2",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "剪窗花",
+        "id": "7b057f7149d44c938ff01d82b6ed4ca9",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "剪羊毛",
+        "id": "4163414fc6944afdaff2679d6f48e13b",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "交城山",
+        "id": "c63f4273b24a414b8d8ba4dc325b6afb",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "静夜思",
+        "id": "e78639f47f06437cb6894a3b16e52d4c",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "老爷爷赶鹅",
+        "id": "793fa4f802a844c5a55ff539a37ef08b",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "锣鼓歌",
+        "id": "afdcc43b2cc44d839ce1c8412fca49a9",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "苗家儿童庆丰收",
+        "id": "b94356b1075d4be294b35c4cb7d1ca9d",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "悯农",
+        "id": "e2765a19c00948dc82039bc1f88aba58",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "牧羊女",
+        "id": "5c14f2756fee4740bf9ee2f6d86a4359",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "螃蟹歌",
+        "id": "8f476669f5fb4112bb72652bf0adde4d",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "十二生肖歌",
+        "id": "ffd4c1e8fe6b4d5f84f379eb14f3db40",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "时间像小马车",
+        "id": "5b113d1226cf4d439c646d584c5ca8e5",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "数蛤蟆",
+        "id": "60d6863621364a8ebb7692d8a727c1b0",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "天天多欢畅",
+        "id": "3abc3b5e489b48569977a6c4324614ac",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "顽皮的小杜鹃",
+        "id": "63ac222f5bec4024ba514184229b280b",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "王老先生",
+        "id": "8ef68e61ba5441e0bc9a06b2d6196d33",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "我们和祖国最亲亲",
+        "id": "4c85445c057045e781eb9e82602b962c",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "我们要做雷锋式的好少年",
+        "id": "7659d888d1cb494ebbaf884cd988c957",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "箫",
+        "id": "09567a27fa0a4190b4e6abadc4e4ecc4",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "小拜年",
+        "id": "5d8d580912554ff38b601f4a392a89c8",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "小花雀",
+        "id": "b4f7cc18fa8f43ec8058109f3cd0b017",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "小毛驴爬山坡",
+        "id": "c9279ce834f04e6abcde71911abe6a25",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "小伞花",
+        "id": "86dfdc8c3704447ba38ddda92d4b141d",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "小乌龟飞上天",
+        "id": "50509c738f6e4efb9b2e0426397debb1",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "小叶子",
+        "id": "bba290cce39b4224ac424560ce4f1e67",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "小雨沙沙",
+        "id": "32f2338aaac34a4babe9e127218cc25e",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "幸福拍手歌",
+        "id": "10d7cd41b4cc4c66bd36487395f87106",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "学我做",
+        "id": "652df0c149b84278b40bc55b9c9cceb9",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "学习雷锋好榜样",
+        "id": "49c6e5c2838540cc8bd8b1409681c0b5",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "彝家娃娃真幸福",
+        "id": "19d6731e8f1e49c99109c208461eea92",
+        "course_name": "三年级演唱（湘艺版）"
+      },
+      {
+        "name": "咏鹅",
+        "id": "80e402f7ab4548a39c9c202a0693ad84",
+        "course_name": "三年级演唱（湘艺版）"
+      }
+    ]
+  },
+  "四年级": {
+    "grade_code": "23",
+    "sample_account": "086230501",
+    "student_name": "陈春伶",
+    "person_id": "Pcd7701d81c2c4b6a892",
+    "courses": {
+      "四年级演唱（人教版）": [
+        {
+          "name": "乘着歌声的翅膀",
+          "id": "9612210ddaa24e3fa00ec3a34a588db6",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "赤诚花",
+          "id": "8140db4c5c144817b1b74c2fd57fd5c3",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "春天来了",
+          "id": "23ad519c3791462cb27245454511d6bc",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "次仁拉索",
+          "id": "89fddf3249f348c69a72ca3b0c4e3ecb",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "凤阳花鼓",
+          "id": "40f9839c3dc144278f4d9a225f8b12be",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "红星歌",
+          "id": "6340fccbc5f64b96b2ffc926e2abec28",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "花儿与少年",
+          "id": "ce22381d7aae46788c59bbee63c3edf3",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "交城山",
+          "id": "083c6ce221834c338dd53e2af180d939",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "军民大生产",
+          "id": "c5cf81a551084991b45b2d881a7b78a8",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "卡普里岛",
+          "id": "073f5f00563444c3af68c002ccd202ac",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "可可西里",
+          "id": "b54e279b99aa4c2fb29cb501b50d544e",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "美丽的草原我的家",
+          "id": "88afd09d05024b4ebdda1717c828f270",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "美丽的夏牧场",
+          "id": "60fef9d1558a46bab6319fc8775e0c81",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "茉 莉 花",
+          "id": "866aba3291b842688ac1722d552ba12d",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "四季歌",
+          "id": "640bd62794f942b4b5c5a86d006a8b32",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "为救李郎离家园",
+          "id": "94453eccd1eb4eb598ec7db073441a5b",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "我爱米兰",
+          "id": "a645ff197a454b31b7722558aa3e0419",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "西湖美",
+          "id": "202f17ed6af343049ee67e68923e8239",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "学习雷锋好榜样",
+          "id": "8ee19229cd604c4b976813100e631967",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "延安的故事",
+          "id": "73706ed6691844cfb85add36a5712f24",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "忆江南",
+          "id": "d77f4ceb0707480dac9d5d75d924baca",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "鱼戏莲叶间",
+          "id": "4c10c301822445ffae9cac5503f767bd",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "月亮叔叔住得远",
+          "id": "466cdc4c54e14a888bd3d10021f71754",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        },
+        {
+          "name": "在北京的金山上",
+          "id": "688c23dbbcc74cd2a0b3a686f659e1c4",
+          "course_id": "CO9856450ae8e94810ab73c9e5809888"
+        }
+      ],
+      "四年级演唱（接力版）": [
+        {
+          "name": "草原就是我的家",
+          "id": "3670d23af1df4cfdb62e8fd643acfde6",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "唱首山歌给哪猜",
+          "id": "a8f01da75a9b4198a607705b209f7dfd",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "敕勒歌",
+          "id": "3caf25fa6e924d72a0e586ff1f59ce05",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "丢丢铜",
+          "id": "8072f95476d9416db658c873aa202b1c",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "风吹竹叶",
+          "id": "6d7e183b15f94a31a1feed6e05430d15",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "共产儿童团歌",
+          "id": "1a3df637280e4dc5801067a2f52915d6",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "红领巾飘起来",
+          "id": "9f3d33b339c544239bf437963369479b",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "猴子蒸糕",
+          "id": "6809b602b8894e89a34c8a548d360efc",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "蝴蝶",
+          "id": "268989f61e214a828d88d04da4f1dd62",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "金孔雀轻轻跳",
+          "id": "ca2a75ebfcfd4c1c8ea2813bbe5604ff",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "可爱的家",
+          "id": "087419aee0714811bd2c5b9fe465d96d",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "兰花草",
+          "id": "a9a176abf62043229375117427487017",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "蓝精灵之歌",
+          "id": "63ba98acd9ec4c50b80e9cb2b8f2117f",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "那达慕之歌",
+          "id": "7ef58e1dbe604dec9886d98baf7bd086",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "盘歌",
+          "id": "cbf040b89c1442e19d446df1b3b9bf1e",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "七子之歌——澳门",
+          "id": "a41f1a0ef5b74513b673bf3889510db0",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "生日歌",
+          "id": "982863669b654352bb354eb1364977cf",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "数 蛤 蟆",
+          "id": "fc0180e2d07c496d8cfe6ba8fed76ba3",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "梭着梭着梭着跳",
+          "id": "212aea6bb9c94461827fabd302a758d0",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "小池",
+          "id": "7a303541602e402698c7328a110445a6",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "小号手之歌",
+          "id": "61bf48074b0842b3a37c99562e13118c",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "小花伞",
+          "id": "626154b424b541f4ba53f33073c54746",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "小鸭子",
+          "id": "931b66c7804e4cf0a1362e07dad76a4e",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "一个师傅仨徒弟",
+          "id": "0ba14e2962d64229ad08b40e2886b068",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "一颗豆子圆又圆",
+          "id": "2d38731695894025a06c86016e0c5e8a",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "月亮田",
+          "id": "1270c3bdc87a403daf1267e4a9002342",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "月亮像个大米团",
+          "id": "78c62aabeeec4bf8b2404139ae116df0",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "云",
+          "id": "d6d945a3a8a44c01a29c4ef98867c41f",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        },
+        {
+          "name": "只怕不抵抗",
+          "id": "8762b947760649958b765c62ae0e1905",
+          "course_id": "CO2ee4a1816f444872833dddd6ceba78"
+        }
+      ],
+      "四年级演唱（湘艺版）": [
+        {
+          "name": "八月桂花遍地开",
+          "id": "c373523cd3b84e78b0a576fb32e2ecdb",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "嘀哩嘀哩",
+          "id": "1ff080fd51744e108ec3f0aa1ae068ef",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "对花",
+          "id": "74846414135a4a0ab4e19eacf78601b8",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "多年以前",
+          "id": "4a916f9195f34c61b4d9dd2055ad7415",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "儿童团放哨歌",
+          "id": "7db225683d534df591d473aa9a9f37c6",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "共产儿童团歌",
+          "id": "53a702e0fb5c4d0e85a8c6d909eb951e",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "海娃变油娃",
+          "id": "61b1241426984c13b218d166258f4b05",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "横山里下来些游击队",
+          "id": "0d3b2b0ca4dc4ab4af8b45e21ba96f5b",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "吉祥三宝",
+          "id": "49ce5c650ff743afb7b0926efa13ba20",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "降落伞",
+          "id": "0dd509f4520541bfab959da054be2a35",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "可爱的家",
+          "id": "5a039bf0e6f740f8b5eaa5b5b898a7fb",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "落水天",
+          "id": "d56ff7aeb93c40e08f971571cd932e6a",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "卖报歌",
+          "id": "a041dfb405f145ac9c12987a548d5f77",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "牧童",
+          "id": "7e283675fecc46ffb7980b1c801f9506",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "乃哟乃",
+          "id": "9da94d05cd244795ab8958d832ae503b",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "七个好朋友",
+          "id": "2b2d547ec62f484caacb3cc11b356877",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "酸枣刺",
+          "id": "096847ee262e4309b05461c2aa810418",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "铁路修到苗家寨",
+          "id": "5731caf7d72645cc8afdf9e75d4ed916",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "土风舞",
+          "id": "4f1e14450c69466898a679930160cedd",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "外婆的澎湖湾",
+          "id": "b4c9658f833045508d1fc0ba8ec6d9fe",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "我的家乡日喀则",
+          "id": "ab9219ba2f6c4f8d9b92662bbcde3224",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "我和你",
+          "id": "7809bef5b36548ecbcc275e2b38738c3",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "小八路",
+          "id": "feed6c47cf7d452784987d2690ca7509",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "小白菜",
+          "id": "4cf3f1e39b2d4e569586df8d32decb75",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "小放牛",
+          "id": "0e190993fa1241348f2ebf32a359fbc1",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "摇篮曲（二）",
+          "id": "3e9364b07846488c881e697ca748550f",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "摇篮曲（一）",
+          "id": "c8a0759b0a92451090cb4e9dd4d2bfa3",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "映 山 红",
+          "id": "6e48ee7aee324280a050753f8e818605",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "远飞的大雁",
+          "id": "ac5d0aa55c424d45847c5f49bc87a239",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "只怕不抵抗",
+          "id": "1a69871d2a6c45c3ad98269b9aed4da6",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "中国少年先锋队队歌",
+          "id": "5b9c1a454db949f5959943fa0bbf5640",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        },
+        {
+          "name": "中华人民共和国国歌",
+          "id": "9f6dd61c032a4f039895fe54d983e103",
+          "course_id": "COa9517c1c66a449f9a4180eb2e579c7"
+        }
+      ]
+    },
+    "all_songs": [
+      {
+        "name": "乘着歌声的翅膀",
+        "id": "9612210ddaa24e3fa00ec3a34a588db6",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "赤诚花",
+        "id": "8140db4c5c144817b1b74c2fd57fd5c3",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "春天来了",
+        "id": "23ad519c3791462cb27245454511d6bc",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "次仁拉索",
+        "id": "89fddf3249f348c69a72ca3b0c4e3ecb",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "凤阳花鼓",
+        "id": "40f9839c3dc144278f4d9a225f8b12be",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "红星歌",
+        "id": "6340fccbc5f64b96b2ffc926e2abec28",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "花儿与少年",
+        "id": "ce22381d7aae46788c59bbee63c3edf3",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "交城山",
+        "id": "083c6ce221834c338dd53e2af180d939",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "军民大生产",
+        "id": "c5cf81a551084991b45b2d881a7b78a8",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "卡普里岛",
+        "id": "073f5f00563444c3af68c002ccd202ac",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "可可西里",
+        "id": "b54e279b99aa4c2fb29cb501b50d544e",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "美丽的草原我的家",
+        "id": "88afd09d05024b4ebdda1717c828f270",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "美丽的夏牧场",
+        "id": "60fef9d1558a46bab6319fc8775e0c81",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "茉 莉 花",
+        "id": "866aba3291b842688ac1722d552ba12d",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "四季歌",
+        "id": "640bd62794f942b4b5c5a86d006a8b32",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "为救李郎离家园",
+        "id": "94453eccd1eb4eb598ec7db073441a5b",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "我爱米兰",
+        "id": "a645ff197a454b31b7722558aa3e0419",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "西湖美",
+        "id": "202f17ed6af343049ee67e68923e8239",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "学习雷锋好榜样",
+        "id": "8ee19229cd604c4b976813100e631967",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "延安的故事",
+        "id": "73706ed6691844cfb85add36a5712f24",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "忆江南",
+        "id": "d77f4ceb0707480dac9d5d75d924baca",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "鱼戏莲叶间",
+        "id": "4c10c301822445ffae9cac5503f767bd",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "月亮叔叔住得远",
+        "id": "466cdc4c54e14a888bd3d10021f71754",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "在北京的金山上",
+        "id": "688c23dbbcc74cd2a0b3a686f659e1c4",
+        "course_name": "四年级演唱（人教版）"
+      },
+      {
+        "name": "草原就是我的家",
+        "id": "3670d23af1df4cfdb62e8fd643acfde6",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "唱首山歌给哪猜",
+        "id": "a8f01da75a9b4198a607705b209f7dfd",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "敕勒歌",
+        "id": "3caf25fa6e924d72a0e586ff1f59ce05",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "丢丢铜",
+        "id": "8072f95476d9416db658c873aa202b1c",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "风吹竹叶",
+        "id": "6d7e183b15f94a31a1feed6e05430d15",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "共产儿童团歌",
+        "id": "1a3df637280e4dc5801067a2f52915d6",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "红领巾飘起来",
+        "id": "9f3d33b339c544239bf437963369479b",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "猴子蒸糕",
+        "id": "6809b602b8894e89a34c8a548d360efc",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "蝴蝶",
+        "id": "268989f61e214a828d88d04da4f1dd62",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "金孔雀轻轻跳",
+        "id": "ca2a75ebfcfd4c1c8ea2813bbe5604ff",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "可爱的家",
+        "id": "087419aee0714811bd2c5b9fe465d96d",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "兰花草",
+        "id": "a9a176abf62043229375117427487017",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "蓝精灵之歌",
+        "id": "63ba98acd9ec4c50b80e9cb2b8f2117f",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "那达慕之歌",
+        "id": "7ef58e1dbe604dec9886d98baf7bd086",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "盘歌",
+        "id": "cbf040b89c1442e19d446df1b3b9bf1e",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "七子之歌——澳门",
+        "id": "a41f1a0ef5b74513b673bf3889510db0",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "生日歌",
+        "id": "982863669b654352bb354eb1364977cf",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "数 蛤 蟆",
+        "id": "fc0180e2d07c496d8cfe6ba8fed76ba3",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "梭着梭着梭着跳",
+        "id": "212aea6bb9c94461827fabd302a758d0",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "小池",
+        "id": "7a303541602e402698c7328a110445a6",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "小号手之歌",
+        "id": "61bf48074b0842b3a37c99562e13118c",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "小花伞",
+        "id": "626154b424b541f4ba53f33073c54746",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "小鸭子",
+        "id": "931b66c7804e4cf0a1362e07dad76a4e",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "一个师傅仨徒弟",
+        "id": "0ba14e2962d64229ad08b40e2886b068",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "一颗豆子圆又圆",
+        "id": "2d38731695894025a06c86016e0c5e8a",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "月亮田",
+        "id": "1270c3bdc87a403daf1267e4a9002342",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "月亮像个大米团",
+        "id": "78c62aabeeec4bf8b2404139ae116df0",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "云",
+        "id": "d6d945a3a8a44c01a29c4ef98867c41f",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "只怕不抵抗",
+        "id": "8762b947760649958b765c62ae0e1905",
+        "course_name": "四年级演唱（接力版）"
+      },
+      {
+        "name": "八月桂花遍地开",
+        "id": "c373523cd3b84e78b0a576fb32e2ecdb",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "嘀哩嘀哩",
+        "id": "1ff080fd51744e108ec3f0aa1ae068ef",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "对花",
+        "id": "74846414135a4a0ab4e19eacf78601b8",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "多年以前",
+        "id": "4a916f9195f34c61b4d9dd2055ad7415",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "儿童团放哨歌",
+        "id": "7db225683d534df591d473aa9a9f37c6",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "共产儿童团歌",
+        "id": "53a702e0fb5c4d0e85a8c6d909eb951e",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "海娃变油娃",
+        "id": "61b1241426984c13b218d166258f4b05",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "横山里下来些游击队",
+        "id": "0d3b2b0ca4dc4ab4af8b45e21ba96f5b",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "吉祥三宝",
+        "id": "49ce5c650ff743afb7b0926efa13ba20",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "降落伞",
+        "id": "0dd509f4520541bfab959da054be2a35",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "可爱的家",
+        "id": "5a039bf0e6f740f8b5eaa5b5b898a7fb",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "落水天",
+        "id": "d56ff7aeb93c40e08f971571cd932e6a",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "卖报歌",
+        "id": "a041dfb405f145ac9c12987a548d5f77",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "牧童",
+        "id": "7e283675fecc46ffb7980b1c801f9506",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "乃哟乃",
+        "id": "9da94d05cd244795ab8958d832ae503b",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "七个好朋友",
+        "id": "2b2d547ec62f484caacb3cc11b356877",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "酸枣刺",
+        "id": "096847ee262e4309b05461c2aa810418",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "铁路修到苗家寨",
+        "id": "5731caf7d72645cc8afdf9e75d4ed916",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "土风舞",
+        "id": "4f1e14450c69466898a679930160cedd",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "外婆的澎湖湾",
+        "id": "b4c9658f833045508d1fc0ba8ec6d9fe",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "我的家乡日喀则",
+        "id": "ab9219ba2f6c4f8d9b92662bbcde3224",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "我和你",
+        "id": "7809bef5b36548ecbcc275e2b38738c3",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "小八路",
+        "id": "feed6c47cf7d452784987d2690ca7509",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "小白菜",
+        "id": "4cf3f1e39b2d4e569586df8d32decb75",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "小放牛",
+        "id": "0e190993fa1241348f2ebf32a359fbc1",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "摇篮曲（二）",
+        "id": "3e9364b07846488c881e697ca748550f",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "摇篮曲（一）",
+        "id": "c8a0759b0a92451090cb4e9dd4d2bfa3",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "映 山 红",
+        "id": "6e48ee7aee324280a050753f8e818605",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "远飞的大雁",
+        "id": "ac5d0aa55c424d45847c5f49bc87a239",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "只怕不抵抗",
+        "id": "1a69871d2a6c45c3ad98269b9aed4da6",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "中国少年先锋队队歌",
+        "id": "5b9c1a454db949f5959943fa0bbf5640",
+        "course_name": "四年级演唱（湘艺版）"
+      },
+      {
+        "name": "中华人民共和国国歌",
+        "id": "9f6dd61c032a4f039895fe54d983e103",
+        "course_name": "四年级演唱（湘艺版）"
+      }
+    ]
+  },
+  "五年级": {
+    "grade_code": "22",
+    "sample_account": "086220501",
+    "student_name": "陈海镁",
+    "person_id": "P5bf88196d3d84d4988e",
+    "courses": {
+      "五年级演唱（人教版）": [
+        {
+          "name": "唱山歌",
+          "id": "6865aba674774dfbb6ba145596d612b4",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "乘着歌声的翅膀",
+          "id": "9612210ddaa24e3fa00ec3a34a588db6",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "赤诚花",
+          "id": "8140db4c5c144817b1b74c2fd57fd5c3",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "春天来了",
+          "id": "23ad519c3791462cb27245454511d6bc",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "次仁拉索",
+          "id": "89fddf3249f348c69a72ca3b0c4e3ecb",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "村晚",
+          "id": "6f2e89a01b60482e92b4b43f0f0b11ad",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "大海啊，故乡",
+          "id": "9c493ff12db84ef0aeecde12a277cc4a",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "侗家儿童多快乐",
+          "id": "ab4552b6510244a4ac16b30c7f06e856",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "甘洒热血写春秋",
+          "id": "809ec8a376ab4cb0a8933a5f3d9bc3e1",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "赶海的小姑娘",
+          "id": "02f2a76e40244273a50180d01ab519a6",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "海鸥",
+          "id": "c260bae5a94c4366879de69f92209a65",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "红蜻蜓",
+          "id": "c2c5963f200249528f80e710ed7003d0",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "花儿与少年",
+          "id": "ce22381d7aae46788c59bbee63c3edf3",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "交城山",
+          "id": "083c6ce221834c338dd53e2af180d939",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "久不唱歌忘记歌",
+          "id": "1f8e691ded51447ca3d15223a11f6805",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "军民大生产",
+          "id": "c5cf81a551084991b45b2d881a7b78a8",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "可可西里",
+          "id": "b54e279b99aa4c2fb29cb501b50d544e",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "快乐的泼水节",
+          "id": "e5940d9107ba486d9a751e52559eecbe",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "老鼠和大象",
+          "id": "ac0fca7b39ac4bdb8171857a958aea0a",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "美丽的草原我的家",
+          "id": "88afd09d05024b4ebdda1717c828f270",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "美丽的夏牧场",
+          "id": "d425d7c8c6b141c9ad074a2e6e8011db",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "木瓜恰恰恰",
+          "id": "6bac610396c34b14a19a4d1c072c6115",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "牧童",
+          "id": "011781ad878943fea8c8923c58aaccf8",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "那达慕之歌",
+          "id": "32dfebe398f34bc3800f77f20af62832",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "男儿当自强",
+          "id": "62aa7797ed7044fa9335ebc2a4e9fc04",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "少先队员采茶歌",
+          "id": "a5596c85df3842ad953d852a1cd6777b",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "守株待兔的老农夫",
+          "id": "5e8fa3a1d47c4bd0966ca3f064007aaf",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "四季歌",
+          "id": "640bd62794f942b4b5c5a86d006a8b32",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "田野在召唤",
+          "id": "f3a2f34014c64944b20e080f5d5e425e",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "我爱米兰",
+          "id": "a645ff197a454b31b7722558aa3e0419",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "我们的田野",
+          "id": "f6e29fd5ef1e4ac59e8c9ff79321b0ff",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "小螺号",
+          "id": "43b800e47dfc436d847064b019b660ca",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "延安的故事",
+          "id": "73706ed6691844cfb85add36a5712f24",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "忆江南",
+          "id": "69e319e2ec70446f8eec49d67ba11a7f",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "鱼戏莲叶间",
+          "id": "4c10c301822445ffae9cac5503f767bd",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "愉快的梦",
+          "id": "38efcfc8aabe4766b5205a2521df8415",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "月亮叔叔住得远",
+          "id": "466cdc4c54e14a888bd3d10021f71754",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "在北京的金山上",
+          "id": "688c23dbbcc74cd2a0b3a686f659e1c4",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        },
+        {
+          "name": "在卡吉德洛森林里",
+          "id": "0936899faf924178aac0a1c14a37e8e3",
+          "course_id": "CO08e288409168472385e3e1bee4a344"
+        }
+      ],
+      "五年级演唱（接力版）": [
+        {
+          "name": "百草园",
+          "id": "f5855bf1700847648bdaa258d5e11cd7",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "编花篮",
+          "id": "7418a6c2067d4e57993e590eed878a8f",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "草原就是我的家",
+          "id": "3670d23af1df4cfdb62e8fd643acfde6",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "唱首山歌给哪猜",
+          "id": "a8f01da75a9b4198a607705b209f7dfd",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "敕勒歌",
+          "id": "3caf25fa6e924d72a0e586ff1f59ce05",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "春的赞美",
+          "id": "605de48919e7405389698b670120e34a",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "丢丢铜",
+          "id": "8072f95476d9416db658c873aa202b1c",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "侗家儿童真快乐",
+          "id": "8d274dd9f7754137a7f50b9a664219b5",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "对花",
+          "id": "5196bbc154bb4cb5b58375a6c06063d5",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "放马山歌",
+          "id": "d679e69fe26f4e03a900f4e99b6db6b0",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "丰收之歌",
+          "id": "865a7c6a1d5e4f22a7f48a803136b466",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "风吹竹叶",
+          "id": "6d7e183b15f94a31a1feed6e05430d15",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "共产儿童团歌",
+          "id": "1a3df637280e4dc5801067a2f52915d6",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "海鸥",
+          "id": "fbdd3d62f9e44237936873c56c8fc7ee",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "红领巾飘起来",
+          "id": "9f3d33b339c544239bf437963369479b",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "红蜻蜓爱花竹帽",
+          "id": "a90c34b22347436da33707a2266e5e0f",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "猴子蒸糕",
+          "id": "6809b602b8894e89a34c8a548d360efc",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "蝴蝶",
+          "id": "268989f61e214a828d88d04da4f1dd62",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "黄河船夫曲",
+          "id": "6a1efb9c199349be95ac6a921f6ac484",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "金凤子开红花",
+          "id": "60758bf99d0b4708b99ceb30375ddfc1",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "金孔雀轻轻跳",
+          "id": "ca2a75ebfcfd4c1c8ea2813bbe5604ff",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "金孔雀与山茶花",
+          "id": "7ca2a4d5dd984f258b2ab31a99141410",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "金缨花开阵阵香",
+          "id": "49777e5d6e7644c6921324f011b0a3c1",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "可爱的家",
+          "id": "087419aee0714811bd2c5b9fe465d96d",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "兰花草",
+          "id": "a9a176abf62043229375117427487017",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "蓝精灵之歌",
+          "id": "63ba98acd9ec4c50b80e9cb2b8f2117f",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "铃儿响叮当",
+          "id": "bd9d171eda384125b03c4f6ce0e4b952",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "留给我",
+          "id": "39da75cbe42c4d8d92d73643cebaba1a",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "绿色的祖国",
+          "id": "c7d67137691b4b11aebda17b4321b2e1",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "那达慕之歌",
+          "id": "7ef58e1dbe604dec9886d98baf7bd086",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "盘歌",
+          "id": "cbf040b89c1442e19d446df1b3b9bf1e",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "七子之歌——澳门",
+          "id": "a41f1a0ef5b74513b673bf3889510db0",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "生日歌",
+          "id": "982863669b654352bb354eb1364977cf",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "数 蛤 蟆",
+          "id": "fc0180e2d07c496d8cfe6ba8fed76ba3",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "梭着梭着梭着跳",
+          "id": "212aea6bb9c94461827fabd302a758d0",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "太行山小唱",
+          "id": "f33ad4ccdeaa4f0c9a48caa5551d48ed",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "我们美丽的祖国",
+          "id": "48cf0bb707a44417a4bf06d336ce9545",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "我们是快乐的儿童",
+          "id": "f1c4058ecc1b49c8b4a7a768f057447d",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "我是草原小骑手",
+          "id": "c09b89cc9b24483eb35a6c60dd17be85",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "乡间的小路（节选）",
+          "id": "797da224b7fc497cb62f886bb6802609",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "小白船",
+          "id": "f64e0352652f4c3a94cf09a66e05ebd2",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "小号手之歌",
+          "id": "61bf48074b0842b3a37c99562e13118c",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "小花伞",
+          "id": "626154b424b541f4ba53f33073c54746",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "小鸭子",
+          "id": "931b66c7804e4cf0a1362e07dad76a4e",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "小纸船的梦",
+          "id": "301f1d99a6cf4e6ca7fe53b8c15908b9",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "新春秧歌闹起来",
+          "id": "8ad72661c1ec40299768a1780685f5d5",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "幸福的花朵",
+          "id": "48cb6e2f5c5a482c8005442aef94b4ba",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "一个师傅仨徒弟",
+          "id": "0ba14e2962d64229ad08b40e2886b068",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "一颗豆子圆又圆",
+          "id": "2d38731695894025a06c86016e0c5e8a",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "沂蒙山小调",
+          "id": "b48c24c9d25f44de9381bd4caca56589",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "永远住在童话里",
+          "id": "c679be42cdb04da4819bf0a252a2d0eb",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "雨中",
+          "id": "74d0a05fc3094b0eb6e143b42767ddc3",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "月亮田",
+          "id": "1270c3bdc87a403daf1267e4a9002342",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "月亮像个大米团",
+          "id": "78c62aabeeec4bf8b2404139ae116df0",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "云",
+          "id": "d6d945a3a8a44c01a29c4ef98867c41f",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "只怕不抵抗",
+          "id": "8762b947760649958b765c62ae0e1905",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "走拢走拢跳起来",
+          "id": "0308fd50f1f24c55a2d7fc2cd7897145",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        },
+        {
+          "name": "祖国像妈妈一样",
+          "id": "951dde7183dc42848c5a330710c7eedd",
+          "course_id": "CO6dce95e3e0114e6b9f6408e931fe90"
+        }
+      ],
+      "五年级演唱（湘艺版）": [
+        {
+          "name": "八月桂花遍地开",
+          "id": "c373523cd3b84e78b0a576fb32e2ecdb",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "彩色的中国",
+          "id": "2aa2708632394b9e8c6db78d7c816511",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "踩雨",
+          "id": "4f609bb2374f4491b6eef64b871eda8c",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "春晓",
+          "id": "1835e1d33ed54fa4b2ddc96558f858fe",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "达古拉",
+          "id": "1410fe1210df4a0bb6aa6bf3f2b184ec",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "嘀哩嘀哩",
+          "id": "1ff080fd51744e108ec3f0aa1ae068ef",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "叮铃铃",
+          "id": "1de3ccfa8ad34895afd0ac828117f7d1",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "杜鹃",
+          "id": "507862085f894434b4eedd312bf5a618",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "对花",
+          "id": "705aa71fc719402c9c3b443cb9de8676",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "对花",
+          "id": "74846414135a4a0ab4e19eacf78601b8",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "多年以前",
+          "id": "4a916f9195f34c61b4d9dd2055ad7415",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "儿童团放哨歌",
+          "id": "7db225683d534df591d473aa9a9f37c6",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "歌唱二小放牛郎",
+          "id": "bfdd2fb7bcc64790a525fbbd8b25da53",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "歌唱二小放牛郎",
+          "id": "df873d377ef94cec9ab89c8a597d35c3",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "歌唱二小放牛郎",
+          "id": "0ef362fa252447c3950c75aa083cca3c",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "歌唱二小放牛郎",
+          "id": "76dc4cf29fd04d27a88296c48f2a4821",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "共产儿童团歌",
+          "id": "53a702e0fb5c4d0e85a8c6d909eb951e",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "海娃变油娃",
+          "id": "61b1241426984c13b218d166258f4b05",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "横山里下来些游击队",
+          "id": "0d3b2b0ca4dc4ab4af8b45e21ba96f5b",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "花蛤蟆",
+          "id": "d1973fb964764f54af1e75c8946543dc",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "吉祥三宝",
+          "id": "49ce5c650ff743afb7b0926efa13ba20",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "降落伞",
+          "id": "0dd509f4520541bfab959da054be2a35",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "酒歌",
+          "id": "8e4e4fad9453421c8c6d3adb84ad8555",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "可爱的家",
+          "id": "85caf55b69bd412ba3c6a12a37df66c6",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "可爱的家",
+          "id": "5a039bf0e6f740f8b5eaa5b5b898a7fb",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "落水天",
+          "id": "d56ff7aeb93c40e08f971571cd932e6a",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "卖报歌",
+          "id": "a041dfb405f145ac9c12987a548d5f77",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "茉莉花",
+          "id": "74dadb683f0e4eb88438a0cd0a1e566c",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "牧童",
+          "id": "7e283675fecc46ffb7980b1c801f9506",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "乃哟乃",
+          "id": "aa6bb7d951874c09b50f14ba8f58ec88",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "七个好朋友",
+          "id": "2b2d547ec62f484caacb3cc11b356877",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "清晨",
+          "id": "d92dea3f3e5543bca6ccf7a041d63a25",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "如果幸福你就拍拍手",
+          "id": "eab6dbdab8a340b6a594b5891d7802fc",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "酸枣刺",
+          "id": "096847ee262e4309b05461c2aa810418",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "太阳出来啦",
+          "id": "e4074754cf7542a69e7c9094d85c7be1",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "田野在召唤",
+          "id": "46e3c2e248f746218af3b523c99d9571",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "铁路修到苗家寨",
+          "id": "04b810506599474ba7ea5bc60847c794",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "童心是小鸟",
+          "id": "3559615fc4144273b14cdd84ecd32672",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "土风舞",
+          "id": "cdef76acd769461fa8550f4ca48e0304",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "土风舞",
+          "id": "4f1e14450c69466898a679930160cedd",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "外婆的澎湖湾",
+          "id": "b4c9658f833045508d1fc0ba8ec6d9fe",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "蜗牛与黄鹂鸟",
+          "id": "2c7f7c547aab4730baedb779aa3d8e44",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "我的家乡日喀则",
+          "id": "99d71ce080af4af2bf368e2e958d8a15",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "我和你",
+          "id": "7809bef5b36548ecbcc275e2b38738c3",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "我心爱的小马车",
+          "id": "83b6c7b9d383496dae46b1f60935408d",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "我怎样长大",
+          "id": "190645fa438e43348bfdc99dacb4f378",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "西风的话",
+          "id": "c50c1d301ba140b9b2d2ad60c4bceb42",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "小八路",
+          "id": "feed6c47cf7d452784987d2690ca7509",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "小白菜",
+          "id": "4cf3f1e39b2d4e569586df8d32decb75",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "小放牛",
+          "id": "0e190993fa1241348f2ebf32a359fbc1",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "小山羊",
+          "id": "e90e5cf4658348ab87db5cb157f206f9",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "小小鼓号手",
+          "id": "9f6af5f550f548e996aa05b98992f46d",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "小小足球赛",
+          "id": "c173c1343ea1403cae158d3b3f30365b",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "摇船调",
+          "id": "2e7aed9a8dce4c35942596cc761b03f2",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "摇篮曲",
+          "id": "91919c3a9a8c44feb8c5dada01fdf750",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "摇篮曲（二）",
+          "id": "3e9364b07846488c881e697ca748550f",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "摇篮曲（一）",
+          "id": "c8a0759b0a92451090cb4e9dd4d2bfa3",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "映 山 红",
+          "id": "6e48ee7aee324280a050753f8e818605",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "远方钟声",
+          "id": "ec4caf49402e42299495a290cd704059",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "远飞的大雁",
+          "id": "ac5d0aa55c424d45847c5f49bc87a239",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "知更鸟的歌",
+          "id": "bfda4727800e44c3a94e9160c0356358",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "只怕不抵抗",
+          "id": "1a69871d2a6c45c3ad98269b9aed4da6",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "中国少年先锋队队歌",
+          "id": "5b9c1a454db949f5959943fa0bbf5640",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        },
+        {
+          "name": "中华人民共和国国歌",
+          "id": "9f6dd61c032a4f039895fe54d983e103",
+          "course_id": "CObd6eba8e9acb4c0badaac398711aa3"
+        }
+      ]
+    },
+    "all_songs": [
+      {
+        "name": "唱山歌",
+        "id": "6865aba674774dfbb6ba145596d612b4",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "乘着歌声的翅膀",
+        "id": "9612210ddaa24e3fa00ec3a34a588db6",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "赤诚花",
+        "id": "8140db4c5c144817b1b74c2fd57fd5c3",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "春天来了",
+        "id": "23ad519c3791462cb27245454511d6bc",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "次仁拉索",
+        "id": "89fddf3249f348c69a72ca3b0c4e3ecb",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "村晚",
+        "id": "6f2e89a01b60482e92b4b43f0f0b11ad",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "大海啊，故乡",
+        "id": "9c493ff12db84ef0aeecde12a277cc4a",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "侗家儿童多快乐",
+        "id": "ab4552b6510244a4ac16b30c7f06e856",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "甘洒热血写春秋",
+        "id": "809ec8a376ab4cb0a8933a5f3d9bc3e1",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "赶海的小姑娘",
+        "id": "02f2a76e40244273a50180d01ab519a6",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "海鸥",
+        "id": "c260bae5a94c4366879de69f92209a65",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "红蜻蜓",
+        "id": "c2c5963f200249528f80e710ed7003d0",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "花儿与少年",
+        "id": "ce22381d7aae46788c59bbee63c3edf3",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "交城山",
+        "id": "083c6ce221834c338dd53e2af180d939",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "久不唱歌忘记歌",
+        "id": "1f8e691ded51447ca3d15223a11f6805",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "军民大生产",
+        "id": "c5cf81a551084991b45b2d881a7b78a8",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "可可西里",
+        "id": "b54e279b99aa4c2fb29cb501b50d544e",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "快乐的泼水节",
+        "id": "e5940d9107ba486d9a751e52559eecbe",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "老鼠和大象",
+        "id": "ac0fca7b39ac4bdb8171857a958aea0a",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "美丽的草原我的家",
+        "id": "88afd09d05024b4ebdda1717c828f270",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "美丽的夏牧场",
+        "id": "d425d7c8c6b141c9ad074a2e6e8011db",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "木瓜恰恰恰",
+        "id": "6bac610396c34b14a19a4d1c072c6115",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "牧童",
+        "id": "011781ad878943fea8c8923c58aaccf8",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "那达慕之歌",
+        "id": "32dfebe398f34bc3800f77f20af62832",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "男儿当自强",
+        "id": "62aa7797ed7044fa9335ebc2a4e9fc04",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "少先队员采茶歌",
+        "id": "a5596c85df3842ad953d852a1cd6777b",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "守株待兔的老农夫",
+        "id": "5e8fa3a1d47c4bd0966ca3f064007aaf",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "四季歌",
+        "id": "640bd62794f942b4b5c5a86d006a8b32",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "田野在召唤",
+        "id": "f3a2f34014c64944b20e080f5d5e425e",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "我爱米兰",
+        "id": "a645ff197a454b31b7722558aa3e0419",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "我们的田野",
+        "id": "f6e29fd5ef1e4ac59e8c9ff79321b0ff",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "小螺号",
+        "id": "43b800e47dfc436d847064b019b660ca",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "延安的故事",
+        "id": "73706ed6691844cfb85add36a5712f24",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "忆江南",
+        "id": "69e319e2ec70446f8eec49d67ba11a7f",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "鱼戏莲叶间",
+        "id": "4c10c301822445ffae9cac5503f767bd",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "愉快的梦",
+        "id": "38efcfc8aabe4766b5205a2521df8415",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "月亮叔叔住得远",
+        "id": "466cdc4c54e14a888bd3d10021f71754",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "在北京的金山上",
+        "id": "688c23dbbcc74cd2a0b3a686f659e1c4",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "在卡吉德洛森林里",
+        "id": "0936899faf924178aac0a1c14a37e8e3",
+        "course_name": "五年级演唱（人教版）"
+      },
+      {
+        "name": "百草园",
+        "id": "f5855bf1700847648bdaa258d5e11cd7",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "编花篮",
+        "id": "7418a6c2067d4e57993e590eed878a8f",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "草原就是我的家",
+        "id": "3670d23af1df4cfdb62e8fd643acfde6",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "唱首山歌给哪猜",
+        "id": "a8f01da75a9b4198a607705b209f7dfd",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "敕勒歌",
+        "id": "3caf25fa6e924d72a0e586ff1f59ce05",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "春的赞美",
+        "id": "605de48919e7405389698b670120e34a",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "丢丢铜",
+        "id": "8072f95476d9416db658c873aa202b1c",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "侗家儿童真快乐",
+        "id": "8d274dd9f7754137a7f50b9a664219b5",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "对花",
+        "id": "5196bbc154bb4cb5b58375a6c06063d5",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "放马山歌",
+        "id": "d679e69fe26f4e03a900f4e99b6db6b0",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "丰收之歌",
+        "id": "865a7c6a1d5e4f22a7f48a803136b466",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "风吹竹叶",
+        "id": "6d7e183b15f94a31a1feed6e05430d15",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "共产儿童团歌",
+        "id": "1a3df637280e4dc5801067a2f52915d6",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "海鸥",
+        "id": "fbdd3d62f9e44237936873c56c8fc7ee",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "红领巾飘起来",
+        "id": "9f3d33b339c544239bf437963369479b",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "红蜻蜓爱花竹帽",
+        "id": "a90c34b22347436da33707a2266e5e0f",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "猴子蒸糕",
+        "id": "6809b602b8894e89a34c8a548d360efc",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "蝴蝶",
+        "id": "268989f61e214a828d88d04da4f1dd62",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "黄河船夫曲",
+        "id": "6a1efb9c199349be95ac6a921f6ac484",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "金凤子开红花",
+        "id": "60758bf99d0b4708b99ceb30375ddfc1",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "金孔雀轻轻跳",
+        "id": "ca2a75ebfcfd4c1c8ea2813bbe5604ff",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "金孔雀与山茶花",
+        "id": "7ca2a4d5dd984f258b2ab31a99141410",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "金缨花开阵阵香",
+        "id": "49777e5d6e7644c6921324f011b0a3c1",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "可爱的家",
+        "id": "087419aee0714811bd2c5b9fe465d96d",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "兰花草",
+        "id": "a9a176abf62043229375117427487017",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "蓝精灵之歌",
+        "id": "63ba98acd9ec4c50b80e9cb2b8f2117f",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "铃儿响叮当",
+        "id": "bd9d171eda384125b03c4f6ce0e4b952",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "留给我",
+        "id": "39da75cbe42c4d8d92d73643cebaba1a",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "绿色的祖国",
+        "id": "c7d67137691b4b11aebda17b4321b2e1",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "那达慕之歌",
+        "id": "7ef58e1dbe604dec9886d98baf7bd086",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "盘歌",
+        "id": "cbf040b89c1442e19d446df1b3b9bf1e",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "七子之歌——澳门",
+        "id": "a41f1a0ef5b74513b673bf3889510db0",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "生日歌",
+        "id": "982863669b654352bb354eb1364977cf",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "数 蛤 蟆",
+        "id": "fc0180e2d07c496d8cfe6ba8fed76ba3",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "梭着梭着梭着跳",
+        "id": "212aea6bb9c94461827fabd302a758d0",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "太行山小唱",
+        "id": "f33ad4ccdeaa4f0c9a48caa5551d48ed",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "我们美丽的祖国",
+        "id": "48cf0bb707a44417a4bf06d336ce9545",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "我们是快乐的儿童",
+        "id": "f1c4058ecc1b49c8b4a7a768f057447d",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "我是草原小骑手",
+        "id": "c09b89cc9b24483eb35a6c60dd17be85",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "乡间的小路（节选）",
+        "id": "797da224b7fc497cb62f886bb6802609",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "小白船",
+        "id": "f64e0352652f4c3a94cf09a66e05ebd2",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "小号手之歌",
+        "id": "61bf48074b0842b3a37c99562e13118c",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "小花伞",
+        "id": "626154b424b541f4ba53f33073c54746",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "小鸭子",
+        "id": "931b66c7804e4cf0a1362e07dad76a4e",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "小纸船的梦",
+        "id": "301f1d99a6cf4e6ca7fe53b8c15908b9",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "新春秧歌闹起来",
+        "id": "8ad72661c1ec40299768a1780685f5d5",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "幸福的花朵",
+        "id": "48cb6e2f5c5a482c8005442aef94b4ba",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "一个师傅仨徒弟",
+        "id": "0ba14e2962d64229ad08b40e2886b068",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "一颗豆子圆又圆",
+        "id": "2d38731695894025a06c86016e0c5e8a",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "沂蒙山小调",
+        "id": "b48c24c9d25f44de9381bd4caca56589",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "永远住在童话里",
+        "id": "c679be42cdb04da4819bf0a252a2d0eb",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "雨中",
+        "id": "74d0a05fc3094b0eb6e143b42767ddc3",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "月亮田",
+        "id": "1270c3bdc87a403daf1267e4a9002342",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "月亮像个大米团",
+        "id": "78c62aabeeec4bf8b2404139ae116df0",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "云",
+        "id": "d6d945a3a8a44c01a29c4ef98867c41f",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "只怕不抵抗",
+        "id": "8762b947760649958b765c62ae0e1905",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "走拢走拢跳起来",
+        "id": "0308fd50f1f24c55a2d7fc2cd7897145",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "祖国像妈妈一样",
+        "id": "951dde7183dc42848c5a330710c7eedd",
+        "course_name": "五年级演唱（接力版）"
+      },
+      {
+        "name": "八月桂花遍地开",
+        "id": "c373523cd3b84e78b0a576fb32e2ecdb",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "彩色的中国",
+        "id": "2aa2708632394b9e8c6db78d7c816511",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "踩雨",
+        "id": "4f609bb2374f4491b6eef64b871eda8c",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "春晓",
+        "id": "1835e1d33ed54fa4b2ddc96558f858fe",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "达古拉",
+        "id": "1410fe1210df4a0bb6aa6bf3f2b184ec",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "嘀哩嘀哩",
+        "id": "1ff080fd51744e108ec3f0aa1ae068ef",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "叮铃铃",
+        "id": "1de3ccfa8ad34895afd0ac828117f7d1",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "杜鹃",
+        "id": "507862085f894434b4eedd312bf5a618",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "对花",
+        "id": "705aa71fc719402c9c3b443cb9de8676",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "对花",
+        "id": "74846414135a4a0ab4e19eacf78601b8",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "多年以前",
+        "id": "4a916f9195f34c61b4d9dd2055ad7415",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "儿童团放哨歌",
+        "id": "7db225683d534df591d473aa9a9f37c6",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "歌唱二小放牛郎",
+        "id": "bfdd2fb7bcc64790a525fbbd8b25da53",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "歌唱二小放牛郎",
+        "id": "df873d377ef94cec9ab89c8a597d35c3",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "歌唱二小放牛郎",
+        "id": "0ef362fa252447c3950c75aa083cca3c",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "歌唱二小放牛郎",
+        "id": "76dc4cf29fd04d27a88296c48f2a4821",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "共产儿童团歌",
+        "id": "53a702e0fb5c4d0e85a8c6d909eb951e",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "海娃变油娃",
+        "id": "61b1241426984c13b218d166258f4b05",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "横山里下来些游击队",
+        "id": "0d3b2b0ca4dc4ab4af8b45e21ba96f5b",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "花蛤蟆",
+        "id": "d1973fb964764f54af1e75c8946543dc",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "吉祥三宝",
+        "id": "49ce5c650ff743afb7b0926efa13ba20",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "降落伞",
+        "id": "0dd509f4520541bfab959da054be2a35",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "酒歌",
+        "id": "8e4e4fad9453421c8c6d3adb84ad8555",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "可爱的家",
+        "id": "85caf55b69bd412ba3c6a12a37df66c6",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "可爱的家",
+        "id": "5a039bf0e6f740f8b5eaa5b5b898a7fb",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "落水天",
+        "id": "d56ff7aeb93c40e08f971571cd932e6a",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "卖报歌",
+        "id": "a041dfb405f145ac9c12987a548d5f77",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "茉莉花",
+        "id": "74dadb683f0e4eb88438a0cd0a1e566c",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "牧童",
+        "id": "7e283675fecc46ffb7980b1c801f9506",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "乃哟乃",
+        "id": "aa6bb7d951874c09b50f14ba8f58ec88",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "七个好朋友",
+        "id": "2b2d547ec62f484caacb3cc11b356877",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "清晨",
+        "id": "d92dea3f3e5543bca6ccf7a041d63a25",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "如果幸福你就拍拍手",
+        "id": "eab6dbdab8a340b6a594b5891d7802fc",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "酸枣刺",
+        "id": "096847ee262e4309b05461c2aa810418",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "太阳出来啦",
+        "id": "e4074754cf7542a69e7c9094d85c7be1",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "田野在召唤",
+        "id": "46e3c2e248f746218af3b523c99d9571",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "铁路修到苗家寨",
+        "id": "04b810506599474ba7ea5bc60847c794",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "童心是小鸟",
+        "id": "3559615fc4144273b14cdd84ecd32672",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "土风舞",
+        "id": "cdef76acd769461fa8550f4ca48e0304",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "土风舞",
+        "id": "4f1e14450c69466898a679930160cedd",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "外婆的澎湖湾",
+        "id": "b4c9658f833045508d1fc0ba8ec6d9fe",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "蜗牛与黄鹂鸟",
+        "id": "2c7f7c547aab4730baedb779aa3d8e44",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "我的家乡日喀则",
+        "id": "99d71ce080af4af2bf368e2e958d8a15",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "我和你",
+        "id": "7809bef5b36548ecbcc275e2b38738c3",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "我心爱的小马车",
+        "id": "83b6c7b9d383496dae46b1f60935408d",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "我怎样长大",
+        "id": "190645fa438e43348bfdc99dacb4f378",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "西风的话",
+        "id": "c50c1d301ba140b9b2d2ad60c4bceb42",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "小八路",
+        "id": "feed6c47cf7d452784987d2690ca7509",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "小白菜",
+        "id": "4cf3f1e39b2d4e569586df8d32decb75",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "小放牛",
+        "id": "0e190993fa1241348f2ebf32a359fbc1",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "小山羊",
+        "id": "e90e5cf4658348ab87db5cb157f206f9",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "小小鼓号手",
+        "id": "9f6af5f550f548e996aa05b98992f46d",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "小小足球赛",
+        "id": "c173c1343ea1403cae158d3b3f30365b",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "摇船调",
+        "id": "2e7aed9a8dce4c35942596cc761b03f2",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "摇篮曲",
+        "id": "91919c3a9a8c44feb8c5dada01fdf750",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "摇篮曲（二）",
+        "id": "3e9364b07846488c881e697ca748550f",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "摇篮曲（一）",
+        "id": "c8a0759b0a92451090cb4e9dd4d2bfa3",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "映 山 红",
+        "id": "6e48ee7aee324280a050753f8e818605",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "远方钟声",
+        "id": "ec4caf49402e42299495a290cd704059",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "远飞的大雁",
+        "id": "ac5d0aa55c424d45847c5f49bc87a239",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "知更鸟的歌",
+        "id": "bfda4727800e44c3a94e9160c0356358",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "只怕不抵抗",
+        "id": "1a69871d2a6c45c3ad98269b9aed4da6",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "中国少年先锋队队歌",
+        "id": "5b9c1a454db949f5959943fa0bbf5640",
+        "course_name": "五年级演唱（湘艺版）"
+      },
+      {
+        "name": "中华人民共和国国歌",
+        "id": "9f6dd61c032a4f039895fe54d983e103",
+        "course_name": "五年级演唱（湘艺版）"
+      }
+    ]
+  },
+  "六年级": {
+    "grade_code": "21",
+    "sample_account": "086210501",
+    "student_name": "陈海锋",
+    "person_id": "Pe76da8a4e6fa4ef8847",
+    "courses": {
+      "六年级演唱（人教版）": [
+        {
+          "name": "阿喽喽",
+          "id": "7f7dd89b5a9241cf9839bea822276298",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "长城放鸽",
+          "id": "cc1e310e050f40b9aa86e0730c461c39",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "唱山歌",
+          "id": "6865aba674774dfbb6ba145596d612b4",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "吹起羌笛跳锅庄",
+          "id": "039c1a5bb35a4a99aba09c715c4610c3",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "村晚",
+          "id": "6f2e89a01b60482e92b4b43f0f0b11ad",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "大海啊，故乡",
+          "id": "9c493ff12db84ef0aeecde12a277cc4a",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "大家一起来",
+          "id": "93e9e281b65f450f8f32076a8322229a",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "侗家儿童多快乐",
+          "id": "ab4552b6510244a4ac16b30c7f06e856",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "甘洒热血写春秋",
+          "id": "809ec8a376ab4cb0a8933a5f3d9bc3e1",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "赶海的小姑娘",
+          "id": "02f2a76e40244273a50180d01ab519a6",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "海鸥",
+          "id": "c260bae5a94c4366879de69f92209a65",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "红蜻蜓",
+          "id": "c2c5963f200249528f80e710ed7003d0",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "井冈山下种南瓜",
+          "id": "29b3975eace54436ac981507de692a60",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "静夜思",
+          "id": "d903947d247f4b149421a0bfbf15194f",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "久不唱歌忘记歌",
+          "id": "1f8e691ded51447ca3d15223a11f6805",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "看大戏",
+          "id": "a53b4231668543c89e9a20c9b205ec54",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "快乐的节日",
+          "id": "954e910e6ddc43a796c669ad83a58415",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "快乐的泼水节",
+          "id": "968d219773aa4a40b1b9cace8f8f68e5",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "老鼠和大象",
+          "id": "ac0fca7b39ac4bdb8171857a958aea0a",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "留给我",
+          "id": "dc1b94c0637e4c78a7fd9195198e449b",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "卢沟谣",
+          "id": "c15af9912032484fb094e26f045ff7c7",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "梅花",
+          "id": "4632fc64644444018ebe1b6e2e1328d3",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "美丽的家乡",
+          "id": "e9ca4133dfea431aba8d18bd41376605",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "木瓜恰恰恰",
+          "id": "6bac610396c34b14a19a4d1c072c6115",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "牧童",
+          "id": "011781ad878943fea8c8923c58aaccf8",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "那达慕之歌",
+          "id": "32dfebe398f34bc3800f77f20af62832",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "男儿当自强",
+          "id": "62aa7797ed7044fa9335ebc2a4e9fc04",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "让我们荡起双桨",
+          "id": "add9fc283d8646e28a6a07e23345fd0b",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "三峡的孩子爱三峡",
+          "id": "2b72537191554b1c830b2e6cd8c1f954",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "森林水车",
+          "id": "e85ff6ac2d8e47d2af21dfd508a1ed2a",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "少先队员采茶歌",
+          "id": "a5596c85df3842ad953d852a1cd6777b",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "手拉手、地球村",
+          "id": "e41d6d79f1c74808a7b8866e71af0bce",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "守株待兔的老农夫",
+          "id": "5e8fa3a1d47c4bd0966ca3f064007aaf",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "送别",
+          "id": "f1cd0f653b684a8282766aeff4be913b",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "田野在召唤",
+          "id": "f3a2f34014c64944b20e080f5d5e425e",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "我们的田野",
+          "id": "f6e29fd5ef1e4ac59e8c9ff79321b0ff",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "西湖美",
+          "id": "d028e143a9a24025a268076905136b23",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "小步舞曲",
+          "id": "010e347c61c7406a9d338991666baeba",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "小螺号",
+          "id": "f5c89b7b3ddf459db3f65da43fd0345d",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "依马呀吉松",
+          "id": "89f7a9a9d0ff4981beabeff4a24af969",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "忆江南",
+          "id": "69e319e2ec70446f8eec49d67ba11a7f",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "银色马车从天上来啦",
+          "id": "843c06804faf492cbbb22544587218b3",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "愉快的梦",
+          "id": "lhq20040312002",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "在卡吉德洛森林里",
+          "id": "0936899faf924178aac0a1c14a37e8e3",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "真善美的小世界",
+          "id": "15081929266341bbb3efce2b37835987",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        },
+        {
+          "name": "祝愿歌",
+          "id": "d1fe064e729749859ff98bb03f01615c",
+          "course_id": "CO82ef71cdd43d4564bbd898090cb5ff"
+        }
+      ],
+      "六年级演唱（接力版）": [
+        {
+          "name": "百草园",
+          "id": "f5855bf1700847648bdaa258d5e11cd7",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "棒棒舞",
+          "id": "2fd763f9ac7e410cb6f649f2d08efa4b",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "编花篮",
+          "id": "684923a72b1245138b24262dc82f6445",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "春的赞美",
+          "id": "605de48919e7405389698b670120e34a",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "春耕曲",
+          "id": "49ab03ecc1b440369183b992bf3d8491",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "春游",
+          "id": "51df2e15d62a4d298eb528535f31cbb9",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "侗家儿童真快乐",
+          "id": "8d274dd9f7754137a7f50b9a664219b5",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "对花",
+          "id": "5196bbc154bb4cb5b58375a6c06063d5",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "跺跺脚",
+          "id": "5a3e80585a634597b2436e97e179512c",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "放马山歌",
+          "id": "d679e69fe26f4e03a900f4e99b6db6b0",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "丰收之歌",
+          "id": "865a7c6a1d5e4f22a7f48a803136b466",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "鼓浪屿之波",
+          "id": "543b765bc070438fb071f0f55dbb965c",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "海鸥",
+          "id": "fbdd3d62f9e44237936873c56c8fc7ee",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "红领巾飘起来",
+          "id": "e43b278022a04aef8930548c4a223d90",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "红蜻蜓",
+          "id": "e24bb635bae141eeaa71a885e300a440",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "红蜻蜓爱花竹帽",
+          "id": "a90c34b22347436da33707a2266e5e0f",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "黄河船夫曲",
+          "id": "6a1efb9c199349be95ac6a921f6ac484",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "金凤子开红花",
+          "id": "60758bf99d0b4708b99ceb30375ddfc1",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "金孔雀与山茶花",
+          "id": "7ca2a4d5dd984f258b2ab31a99141410",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "金缨花开阵阵香",
+          "id": "49777e5d6e7644c6921324f011b0a3c1",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "久不唱歌忘记歌",
+          "id": "c40952fc813c437f90d477029fa5fb45",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "快乐的节日",
+          "id": "954e910e6ddc43a796c669ad83a58415",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "铃儿响叮当",
+          "id": "bd9d171eda384125b03c4f6ce0e4b952",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "留给我",
+          "id": "39da75cbe42c4d8d92d73643cebaba1a",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "鲁冰花",
+          "id": "2c31c027ea6a4ed386baf232d648f719",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "绿色的祖国",
+          "id": "c7d67137691b4b11aebda17b4321b2e1",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "每当我走过老师的窗前",
+          "id": "22b10ec1e1694d6b8abaf7ea45f18792",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "茉莉花",
+          "id": "4a62aecb28264c2797ab8877184da477",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "牧童之歌",
+          "id": "29a8aaf0661e4eac81baf85367945fa9",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "让我们荡起双桨",
+          "id": "ef91da8a9c1a4febbe467d8f0321ac01",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "少先队员友谊之歌",
+          "id": "b5b197b35ecc4cb595952cf30fdda482",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "说起唱歌都常来",
+          "id": "d02d09873519418089edaf15ca3d9445",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "踏雪寻梅",
+          "id": "e21b17931c1845f7bab9e4b727125e5b",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "太行山小唱",
+          "id": "f33ad4ccdeaa4f0c9a48caa5551d48ed",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "天上的布达拉",
+          "id": "4a0575bb705640168f35ef152b65d4d8",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "我们美丽的祖国",
+          "id": "48cf0bb707a44417a4bf06d336ce9545",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "我们是快乐的儿童",
+          "id": "f1c4058ecc1b49c8b4a7a768f057447d",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "我们相会在海滩上",
+          "id": "de57727bb4104001bcf040392838e026",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "我是草原小骑手",
+          "id": "c09b89cc9b24483eb35a6c60dd17be85",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "弦子舞曲",
+          "id": "7070d1575b4d453d9043422273e0e601",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "乡间的小路（节选）",
+          "id": "797da224b7fc497cb62f886bb6802609",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "小白船",
+          "id": "f64e0352652f4c3a94cf09a66e05ebd2",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "小纸船的梦",
+          "id": "301f1d99a6cf4e6ca7fe53b8c15908b9",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "新春秧歌闹起来",
+          "id": "8ad72661c1ec40299768a1780685f5d5",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "幸福的花朵",
+          "id": "48cb6e2f5c5a482c8005442aef94b4ba",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "杨柳青",
+          "id": "6286e74d6854497eabfcff7cf7cb06e5",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "沂蒙山小调",
+          "id": "ffa7bb958cda4a56b24e2051cead9e54",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "永远住在童话里",
+          "id": "c679be42cdb04da4819bf0a252a2d0eb",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "游击队歌",
+          "id": "8ffeea342c4b4b4b8dc48aa7108b4b4c",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "渔家姑娘在海边",
+          "id": "8772bec56ac6479f8a92a66637078d25",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "渔舟唱晚",
+          "id": "765862e7319646bb8e23ebd276de96e5",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "雨中",
+          "id": "74d0a05fc3094b0eb6e143b42767ddc3",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "中国少年先锋队队歌",
+          "id": "62e17732746b41bf891ebb3c7e764c10",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "中华人民共和国国歌",
+          "id": "9f6dd61c032a4f039895fe54d983e103",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "走拢走拢跳起来",
+          "id": "0308fd50f1f24c55a2d7fc2cd7897145",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        },
+        {
+          "name": "祖国像妈妈一样",
+          "id": "951dde7183dc42848c5a330710c7eedd",
+          "course_id": "CO684366fceff6416c8460959ac02af8"
+        }
+      ],
+      "六年级演唱（湘艺版）": [
+        {
+          "name": "编花篮",
+          "id": "7418a6c2067d4e57993e590eed878a8f",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "彩色的中国",
+          "id": "97e8c6bc4f3a49be9abf8b784c08f5fd",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "踩雨",
+          "id": "4f609bb2374f4491b6eef64b871eda8c",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "唱支最美的歌",
+          "id": "1d99e8d88ab549f6b5f4923335e8d457",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "吹草哨儿",
+          "id": "67c20381d6f046c9b74e1bcc7e118702",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "吹起羌笛跳锅庄",
+          "id": "4c60060c25a1454386a60541445d78c9",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "春晓",
+          "id": "1835e1d33ed54fa4b2ddc96558f858fe",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "达古拉",
+          "id": "1410fe1210df4a0bb6aa6bf3f2b184ec",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "大海啊，故乡",
+          "id": "9e0803654d524d1a8a3a3ead206c63ff",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "大红枣儿甜又香",
+          "id": "70e90b28d2e947dbac7f64cc3c51793f",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "叮铃铃",
+          "id": "1de3ccfa8ad34895afd0ac828117f7d1",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "对花",
+          "id": "705aa71fc719402c9c3b443cb9de8676",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "歌唱二小放牛郎",
+          "id": "bfdd2fb7bcc64790a525fbbd8b25da53",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "歌唱二小放牛郎",
+          "id": "df873d377ef94cec9ab89c8a597d35c3",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "歌唱二小放牛郎",
+          "id": "76dc4cf29fd04d27a88296c48f2a4821",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "歌唱二小放牛郎",
+          "id": "0ef362fa252447c3950c75aa083cca3c",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "故乡的小路",
+          "id": "adfa2d100bab4a2ca1048bb64b7eb3bb",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "红蜻蜓",
+          "id": "5a8836161448451f9974cd2930431a90",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "花蛤蟆",
+          "id": "d1973fb964764f54af1e75c8946543dc",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "酒歌",
+          "id": "8e4e4fad9453421c8c6d3adb84ad8555",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "看大戏",
+          "id": "7a1bb550663e4f76ab3777321ced1c12",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "可爱的家",
+          "id": "85caf55b69bd412ba3c6a12a37df66c6",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "渴望春天",
+          "id": "2a6708bd168b4698b98576307449f2db",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "溜溜山歌",
+          "id": "16e579e3ee024c8bb5a458db4c238cb5",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "卢沟谣",
+          "id": "c15af9912032484fb094e26f045ff7c7",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "茉莉花",
+          "id": "60de36df319e4b94aedc3fab63a6287e",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "木瓜恰恰恰",
+          "id": "6bac610396c34b14a19a4d1c072c6115",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "嗯嘿呀",
+          "id": "23e5da1bb49e4bd79bfd7d145a6ae672",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "七色光之歌",
+          "id": "6ddfbe5accc6452699c966948edca224",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "七子之歌——澳门",
+          "id": "a41f1a0ef5b74513b673bf3889510db0",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "清晨",
+          "id": "d92dea3f3e5543bca6ccf7a041d63a25",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "让我们荡起双桨",
+          "id": "add9fc283d8646e28a6a07e23345fd0b",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "如果幸福你就拍拍手",
+          "id": "eab6dbdab8a340b6a594b5891d7802fc",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "踏雪寻梅",
+          "id": "1b6d5b4c1b5748c2a4e9444d9505fe57",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "太阳出来啦",
+          "id": "e4074754cf7542a69e7c9094d85c7be1",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "田野在召唤",
+          "id": "f3a2f34014c64944b20e080f5d5e425e",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "铁路修到苗家寨",
+          "id": "04b810506599474ba7ea5bc60847c794",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "童心是小鸟",
+          "id": "3559615fc4144273b14cdd84ecd32672",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "土风舞",
+          "id": "cdef76acd769461fa8550f4ca48e0304",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "顽皮的小杜鹃",
+          "id": "54f0144fd0174b6faf3939f380237678",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "蜗牛与黄鹂鸟",
+          "id": "2c7f7c547aab4730baedb779aa3d8e44",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "我的家乡日喀则",
+          "id": "99d71ce080af4af2bf368e2e958d8a15",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "我跟阿爹拉骆驼",
+          "id": "db3fb63e56c2492ca1da6f65003e5d70",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "我可爱的家乡",
+          "id": "4a2a58b1a4a147bd8954f32ef388d2fc",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "我心爱的小马车",
+          "id": "83b6c7b9d383496dae46b1f60935408d",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "我怎样长大",
+          "id": "190645fa438e43348bfdc99dacb4f378",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "西风的话",
+          "id": "c50c1d301ba140b9b2d2ad60c4bceb42",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "掀起你的盖头来",
+          "id": "f8e9ed84aca544469c2992c5ceff0da4",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "小鸟，请到这里来",
+          "id": "1a30ac1279c64ba094b29fccf406aa4d",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "小鸟，小鸟",
+          "id": "eb226227faff4b8d8ff52ebde9123e8e",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "小山羊",
+          "id": "e90e5cf4658348ab87db5cb157f206f9",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "小小鼓号手",
+          "id": "9f6af5f550f548e996aa05b98992f46d",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "小小足球赛",
+          "id": "c173c1343ea1403cae158d3b3f30365b",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "新东北风",
+          "id": "b96969de3b90421aabb10517b3e451b2",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "摇船调",
+          "id": "2e7aed9a8dce4c35942596cc761b03f2",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "摇篮曲",
+          "id": "91919c3a9a8c44feb8c5dada01fdf750",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "一根竹竿容易弯",
+          "id": "4e38fbee122e4c87a4684e466fb4d96e",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "银色马车从天上来啦",
+          "id": "843c06804faf492cbbb22544587218b3",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "拥军秧歌",
+          "id": "06d1fd0230b64daf81a5eee1c4c5e890",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "游击队歌",
+          "id": "9ca5ae32ff024a89a497aea478f3ac3e",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "远方钟声",
+          "id": "ec4caf49402e42299495a290cd704059",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "在葡萄架下",
+          "id": "3f02cb1850a5455d8246a4e06899f4b3",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "真善美的小世界",
+          "id": "2881739cdbb44c4698dc64a826c3500b",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "知更鸟的歌",
+          "id": "bfda4727800e44c3a94e9160c0356358",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "走绛州",
+          "id": "65958bc0d79a443b9bdcccab268e1cfb",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "祖国印象",
+          "id": "69b9b74d1c2643d2a6fd4b326e324d98",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        },
+        {
+          "name": "坐上火车浪西宁",
+          "id": "f720fd7b9e904a15a001fbc8f4fe359b",
+          "course_id": "COd080b2c483e7487f9022b330f6adff"
+        }
+      ]
+    },
+    "all_songs": [
+      {
+        "name": "阿喽喽",
+        "id": "7f7dd89b5a9241cf9839bea822276298",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "长城放鸽",
+        "id": "cc1e310e050f40b9aa86e0730c461c39",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "唱山歌",
+        "id": "6865aba674774dfbb6ba145596d612b4",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "吹起羌笛跳锅庄",
+        "id": "039c1a5bb35a4a99aba09c715c4610c3",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "村晚",
+        "id": "6f2e89a01b60482e92b4b43f0f0b11ad",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "大海啊，故乡",
+        "id": "9c493ff12db84ef0aeecde12a277cc4a",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "大家一起来",
+        "id": "93e9e281b65f450f8f32076a8322229a",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "侗家儿童多快乐",
+        "id": "ab4552b6510244a4ac16b30c7f06e856",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "甘洒热血写春秋",
+        "id": "809ec8a376ab4cb0a8933a5f3d9bc3e1",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "赶海的小姑娘",
+        "id": "02f2a76e40244273a50180d01ab519a6",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "海鸥",
+        "id": "c260bae5a94c4366879de69f92209a65",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "红蜻蜓",
+        "id": "c2c5963f200249528f80e710ed7003d0",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "井冈山下种南瓜",
+        "id": "29b3975eace54436ac981507de692a60",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "静夜思",
+        "id": "d903947d247f4b149421a0bfbf15194f",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "久不唱歌忘记歌",
+        "id": "1f8e691ded51447ca3d15223a11f6805",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "看大戏",
+        "id": "a53b4231668543c89e9a20c9b205ec54",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "快乐的节日",
+        "id": "954e910e6ddc43a796c669ad83a58415",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "快乐的泼水节",
+        "id": "968d219773aa4a40b1b9cace8f8f68e5",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "老鼠和大象",
+        "id": "ac0fca7b39ac4bdb8171857a958aea0a",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "留给我",
+        "id": "dc1b94c0637e4c78a7fd9195198e449b",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "卢沟谣",
+        "id": "c15af9912032484fb094e26f045ff7c7",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "梅花",
+        "id": "4632fc64644444018ebe1b6e2e1328d3",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "美丽的家乡",
+        "id": "e9ca4133dfea431aba8d18bd41376605",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "木瓜恰恰恰",
+        "id": "6bac610396c34b14a19a4d1c072c6115",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "牧童",
+        "id": "011781ad878943fea8c8923c58aaccf8",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "那达慕之歌",
+        "id": "32dfebe398f34bc3800f77f20af62832",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "男儿当自强",
+        "id": "62aa7797ed7044fa9335ebc2a4e9fc04",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "让我们荡起双桨",
+        "id": "add9fc283d8646e28a6a07e23345fd0b",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "三峡的孩子爱三峡",
+        "id": "2b72537191554b1c830b2e6cd8c1f954",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "森林水车",
+        "id": "e85ff6ac2d8e47d2af21dfd508a1ed2a",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "少先队员采茶歌",
+        "id": "a5596c85df3842ad953d852a1cd6777b",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "手拉手、地球村",
+        "id": "e41d6d79f1c74808a7b8866e71af0bce",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "守株待兔的老农夫",
+        "id": "5e8fa3a1d47c4bd0966ca3f064007aaf",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "送别",
+        "id": "f1cd0f653b684a8282766aeff4be913b",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "田野在召唤",
+        "id": "f3a2f34014c64944b20e080f5d5e425e",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "我们的田野",
+        "id": "f6e29fd5ef1e4ac59e8c9ff79321b0ff",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "西湖美",
+        "id": "d028e143a9a24025a268076905136b23",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "小步舞曲",
+        "id": "010e347c61c7406a9d338991666baeba",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "小螺号",
+        "id": "f5c89b7b3ddf459db3f65da43fd0345d",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "依马呀吉松",
+        "id": "89f7a9a9d0ff4981beabeff4a24af969",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "忆江南",
+        "id": "69e319e2ec70446f8eec49d67ba11a7f",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "银色马车从天上来啦",
+        "id": "843c06804faf492cbbb22544587218b3",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "愉快的梦",
+        "id": "lhq20040312002",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "在卡吉德洛森林里",
+        "id": "0936899faf924178aac0a1c14a37e8e3",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "真善美的小世界",
+        "id": "15081929266341bbb3efce2b37835987",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "祝愿歌",
+        "id": "d1fe064e729749859ff98bb03f01615c",
+        "course_name": "六年级演唱（人教版）"
+      },
+      {
+        "name": "百草园",
+        "id": "f5855bf1700847648bdaa258d5e11cd7",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "棒棒舞",
+        "id": "2fd763f9ac7e410cb6f649f2d08efa4b",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "编花篮",
+        "id": "684923a72b1245138b24262dc82f6445",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "春的赞美",
+        "id": "605de48919e7405389698b670120e34a",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "春耕曲",
+        "id": "49ab03ecc1b440369183b992bf3d8491",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "春游",
+        "id": "51df2e15d62a4d298eb528535f31cbb9",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "侗家儿童真快乐",
+        "id": "8d274dd9f7754137a7f50b9a664219b5",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "对花",
+        "id": "5196bbc154bb4cb5b58375a6c06063d5",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "跺跺脚",
+        "id": "5a3e80585a634597b2436e97e179512c",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "放马山歌",
+        "id": "d679e69fe26f4e03a900f4e99b6db6b0",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "丰收之歌",
+        "id": "865a7c6a1d5e4f22a7f48a803136b466",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "鼓浪屿之波",
+        "id": "543b765bc070438fb071f0f55dbb965c",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "海鸥",
+        "id": "fbdd3d62f9e44237936873c56c8fc7ee",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "红领巾飘起来",
+        "id": "e43b278022a04aef8930548c4a223d90",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "红蜻蜓",
+        "id": "e24bb635bae141eeaa71a885e300a440",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "红蜻蜓爱花竹帽",
+        "id": "a90c34b22347436da33707a2266e5e0f",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "黄河船夫曲",
+        "id": "6a1efb9c199349be95ac6a921f6ac484",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "金凤子开红花",
+        "id": "60758bf99d0b4708b99ceb30375ddfc1",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "金孔雀与山茶花",
+        "id": "7ca2a4d5dd984f258b2ab31a99141410",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "金缨花开阵阵香",
+        "id": "49777e5d6e7644c6921324f011b0a3c1",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "久不唱歌忘记歌",
+        "id": "c40952fc813c437f90d477029fa5fb45",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "快乐的节日",
+        "id": "954e910e6ddc43a796c669ad83a58415",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "铃儿响叮当",
+        "id": "bd9d171eda384125b03c4f6ce0e4b952",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "留给我",
+        "id": "39da75cbe42c4d8d92d73643cebaba1a",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "鲁冰花",
+        "id": "2c31c027ea6a4ed386baf232d648f719",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "绿色的祖国",
+        "id": "c7d67137691b4b11aebda17b4321b2e1",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "每当我走过老师的窗前",
+        "id": "22b10ec1e1694d6b8abaf7ea45f18792",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "茉莉花",
+        "id": "4a62aecb28264c2797ab8877184da477",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "牧童之歌",
+        "id": "29a8aaf0661e4eac81baf85367945fa9",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "让我们荡起双桨",
+        "id": "ef91da8a9c1a4febbe467d8f0321ac01",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "少先队员友谊之歌",
+        "id": "b5b197b35ecc4cb595952cf30fdda482",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "说起唱歌都常来",
+        "id": "d02d09873519418089edaf15ca3d9445",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "踏雪寻梅",
+        "id": "e21b17931c1845f7bab9e4b727125e5b",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "太行山小唱",
+        "id": "f33ad4ccdeaa4f0c9a48caa5551d48ed",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "天上的布达拉",
+        "id": "4a0575bb705640168f35ef152b65d4d8",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "我们美丽的祖国",
+        "id": "48cf0bb707a44417a4bf06d336ce9545",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "我们是快乐的儿童",
+        "id": "f1c4058ecc1b49c8b4a7a768f057447d",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "我们相会在海滩上",
+        "id": "de57727bb4104001bcf040392838e026",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "我是草原小骑手",
+        "id": "c09b89cc9b24483eb35a6c60dd17be85",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "弦子舞曲",
+        "id": "7070d1575b4d453d9043422273e0e601",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "乡间的小路（节选）",
+        "id": "797da224b7fc497cb62f886bb6802609",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "小白船",
+        "id": "f64e0352652f4c3a94cf09a66e05ebd2",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "小纸船的梦",
+        "id": "301f1d99a6cf4e6ca7fe53b8c15908b9",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "新春秧歌闹起来",
+        "id": "8ad72661c1ec40299768a1780685f5d5",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "幸福的花朵",
+        "id": "48cb6e2f5c5a482c8005442aef94b4ba",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "杨柳青",
+        "id": "6286e74d6854497eabfcff7cf7cb06e5",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "沂蒙山小调",
+        "id": "ffa7bb958cda4a56b24e2051cead9e54",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "永远住在童话里",
+        "id": "c679be42cdb04da4819bf0a252a2d0eb",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "游击队歌",
+        "id": "8ffeea342c4b4b4b8dc48aa7108b4b4c",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "渔家姑娘在海边",
+        "id": "8772bec56ac6479f8a92a66637078d25",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "渔舟唱晚",
+        "id": "765862e7319646bb8e23ebd276de96e5",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "雨中",
+        "id": "74d0a05fc3094b0eb6e143b42767ddc3",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "中国少年先锋队队歌",
+        "id": "62e17732746b41bf891ebb3c7e764c10",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "中华人民共和国国歌",
+        "id": "9f6dd61c032a4f039895fe54d983e103",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "走拢走拢跳起来",
+        "id": "0308fd50f1f24c55a2d7fc2cd7897145",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "祖国像妈妈一样",
+        "id": "951dde7183dc42848c5a330710c7eedd",
+        "course_name": "六年级演唱（接力版）"
+      },
+      {
+        "name": "编花篮",
+        "id": "7418a6c2067d4e57993e590eed878a8f",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "彩色的中国",
+        "id": "97e8c6bc4f3a49be9abf8b784c08f5fd",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "踩雨",
+        "id": "4f609bb2374f4491b6eef64b871eda8c",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "唱支最美的歌",
+        "id": "1d99e8d88ab549f6b5f4923335e8d457",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "吹草哨儿",
+        "id": "67c20381d6f046c9b74e1bcc7e118702",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "吹起羌笛跳锅庄",
+        "id": "4c60060c25a1454386a60541445d78c9",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "春晓",
+        "id": "1835e1d33ed54fa4b2ddc96558f858fe",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "达古拉",
+        "id": "1410fe1210df4a0bb6aa6bf3f2b184ec",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "大海啊，故乡",
+        "id": "9e0803654d524d1a8a3a3ead206c63ff",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "大红枣儿甜又香",
+        "id": "70e90b28d2e947dbac7f64cc3c51793f",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "叮铃铃",
+        "id": "1de3ccfa8ad34895afd0ac828117f7d1",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "对花",
+        "id": "705aa71fc719402c9c3b443cb9de8676",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "歌唱二小放牛郎",
+        "id": "bfdd2fb7bcc64790a525fbbd8b25da53",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "歌唱二小放牛郎",
+        "id": "df873d377ef94cec9ab89c8a597d35c3",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "歌唱二小放牛郎",
+        "id": "76dc4cf29fd04d27a88296c48f2a4821",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "歌唱二小放牛郎",
+        "id": "0ef362fa252447c3950c75aa083cca3c",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "故乡的小路",
+        "id": "adfa2d100bab4a2ca1048bb64b7eb3bb",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "红蜻蜓",
+        "id": "5a8836161448451f9974cd2930431a90",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "花蛤蟆",
+        "id": "d1973fb964764f54af1e75c8946543dc",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "酒歌",
+        "id": "8e4e4fad9453421c8c6d3adb84ad8555",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "看大戏",
+        "id": "7a1bb550663e4f76ab3777321ced1c12",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "可爱的家",
+        "id": "85caf55b69bd412ba3c6a12a37df66c6",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "渴望春天",
+        "id": "2a6708bd168b4698b98576307449f2db",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "溜溜山歌",
+        "id": "16e579e3ee024c8bb5a458db4c238cb5",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "卢沟谣",
+        "id": "c15af9912032484fb094e26f045ff7c7",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "茉莉花",
+        "id": "60de36df319e4b94aedc3fab63a6287e",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "木瓜恰恰恰",
+        "id": "6bac610396c34b14a19a4d1c072c6115",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "嗯嘿呀",
+        "id": "23e5da1bb49e4bd79bfd7d145a6ae672",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "七色光之歌",
+        "id": "6ddfbe5accc6452699c966948edca224",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "七子之歌——澳门",
+        "id": "a41f1a0ef5b74513b673bf3889510db0",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "清晨",
+        "id": "d92dea3f3e5543bca6ccf7a041d63a25",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "让我们荡起双桨",
+        "id": "add9fc283d8646e28a6a07e23345fd0b",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "如果幸福你就拍拍手",
+        "id": "eab6dbdab8a340b6a594b5891d7802fc",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "踏雪寻梅",
+        "id": "1b6d5b4c1b5748c2a4e9444d9505fe57",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "太阳出来啦",
+        "id": "e4074754cf7542a69e7c9094d85c7be1",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "田野在召唤",
+        "id": "f3a2f34014c64944b20e080f5d5e425e",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "铁路修到苗家寨",
+        "id": "04b810506599474ba7ea5bc60847c794",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "童心是小鸟",
+        "id": "3559615fc4144273b14cdd84ecd32672",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "土风舞",
+        "id": "cdef76acd769461fa8550f4ca48e0304",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "顽皮的小杜鹃",
+        "id": "54f0144fd0174b6faf3939f380237678",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "蜗牛与黄鹂鸟",
+        "id": "2c7f7c547aab4730baedb779aa3d8e44",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "我的家乡日喀则",
+        "id": "99d71ce080af4af2bf368e2e958d8a15",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "我跟阿爹拉骆驼",
+        "id": "db3fb63e56c2492ca1da6f65003e5d70",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "我可爱的家乡",
+        "id": "4a2a58b1a4a147bd8954f32ef388d2fc",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "我心爱的小马车",
+        "id": "83b6c7b9d383496dae46b1f60935408d",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "我怎样长大",
+        "id": "190645fa438e43348bfdc99dacb4f378",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "西风的话",
+        "id": "c50c1d301ba140b9b2d2ad60c4bceb42",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "掀起你的盖头来",
+        "id": "f8e9ed84aca544469c2992c5ceff0da4",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "小鸟，请到这里来",
+        "id": "1a30ac1279c64ba094b29fccf406aa4d",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "小鸟，小鸟",
+        "id": "eb226227faff4b8d8ff52ebde9123e8e",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "小山羊",
+        "id": "e90e5cf4658348ab87db5cb157f206f9",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "小小鼓号手",
+        "id": "9f6af5f550f548e996aa05b98992f46d",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "小小足球赛",
+        "id": "c173c1343ea1403cae158d3b3f30365b",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "新东北风",
+        "id": "b96969de3b90421aabb10517b3e451b2",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "摇船调",
+        "id": "2e7aed9a8dce4c35942596cc761b03f2",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "摇篮曲",
+        "id": "91919c3a9a8c44feb8c5dada01fdf750",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "一根竹竿容易弯",
+        "id": "4e38fbee122e4c87a4684e466fb4d96e",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "银色马车从天上来啦",
+        "id": "843c06804faf492cbbb22544587218b3",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "拥军秧歌",
+        "id": "06d1fd0230b64daf81a5eee1c4c5e890",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "游击队歌",
+        "id": "9ca5ae32ff024a89a497aea478f3ac3e",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "远方钟声",
+        "id": "ec4caf49402e42299495a290cd704059",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "在葡萄架下",
+        "id": "3f02cb1850a5455d8246a4e06899f4b3",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "真善美的小世界",
+        "id": "2881739cdbb44c4698dc64a826c3500b",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "知更鸟的歌",
+        "id": "bfda4727800e44c3a94e9160c0356358",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "走绛州",
+        "id": "65958bc0d79a443b9bdcccab268e1cfb",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "祖国印象",
+        "id": "69b9b74d1c2643d2a6fd4b326e324d98",
+        "course_name": "六年级演唱（湘艺版）"
+      },
+      {
+        "name": "坐上火车浪西宁",
+        "id": "f720fd7b9e904a15a001fbc8f4fe359b",
+        "course_name": "六年级演唱（湘艺版）"
+      }
+    ]
+  }
+}
