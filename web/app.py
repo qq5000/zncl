@@ -140,10 +140,15 @@ def get_grades_and_songs():
     return {"success": True, "data": ALL_GRADE_DATA}
 
 
+import re
+
 @app.post("/api/upload_custom_audio")
 async def upload_custom_audio(file: UploadFile = File(...), session_id: str = Form(...)):
     raw_ext = os.path.splitext(file.filename)[1].lower()
-    base_name = f"{session_id}_{int(time.time())}"
+    # 提取用户原文件名并过滤非法字符
+    raw_stem = os.path.splitext(file.filename)[0]
+    safe_stem = re.sub(r'[\/\\:\*\?\"<>\|\s]+', '_', raw_stem).strip('_') or "record"
+    base_name = f"{safe_stem}_{session_id[:6]}"
     raw_filename = f"{base_name}{raw_ext}"
     raw_path = os.path.join(UPLOAD_DIR, raw_filename)
     
@@ -163,6 +168,12 @@ async def upload_custom_audio(file: UploadFile = File(...), session_id: str = Fo
             ]
             res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             if res.returncode == 0 and os.path.exists(mp3_path):
+                # 转码成功后删除原始临时源文件，避免重复占用磁盘
+                if os.path.exists(raw_path):
+                    try:
+                        os.remove(raw_path)
+                    except Exception:
+                        pass
                 final_filename = mp3_filename
         except Exception as e:
             print("Audio transcode error:", e)
@@ -471,18 +482,24 @@ async def admin_upload_audio(
     if password.strip() != ADMIN_PASSWORD:
         return {"success": False, "msg": "密码鉴权失败"}
 
+    custom_name = name.strip()
     raw_ext = os.path.splitext(file.filename)[1].lower()
+    
+    # 将管理员填写的名称安全化作为文件名（如 "队歌-女声示范.mp3"）
+    safe_name = re.sub(r'[\/\\:\*\?\"<>\|\s]+', '_', custom_name).strip('_') or "audio"
     audio_id = "aud_" + hex(int(time.time() * 1000))[2:]
-    raw_filename = f"{audio_id}{raw_ext}"
+    
+    # 以管理员命名为基准
+    raw_filename = f"{safe_name}{raw_ext}"
     raw_path = os.path.join(UPLOAD_DIR, raw_filename)
 
     with open(raw_path, "wb") as f:
         f.write(await file.read())
 
     final_filename = raw_filename
-    # 如果不是 mp3，自动调用 ffmpeg 转码为标准 mp3
+    # 如果不是 mp3，自动调用 ffmpeg 转码为标准同名 mp3
     if raw_ext in [".m4a", ".aac", ".wav", ".ogg", ".flac", ".wma", ".webm"]:
-        mp3_filename = f"{audio_id}.mp3"
+        mp3_filename = f"{safe_name}.mp3"
         mp3_path = os.path.join(UPLOAD_DIR, mp3_filename)
         try:
             cmd = [
@@ -492,14 +509,22 @@ async def admin_upload_audio(
             ]
             res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             if res.returncode == 0 and os.path.exists(mp3_path):
+                # 转码成功后删除原始临时源文件，不留重复冗余文件
+                if os.path.exists(raw_path) and raw_filename != mp3_filename:
+                    try:
+                        os.remove(raw_path)
+                    except Exception:
+                        pass
                 final_filename = mp3_filename
         except Exception as e:
             print("Admin audio transcode error:", e)
 
     meta = get_audio_meta()
+    # 避免重名覆盖元数据
+    meta = [it for it in meta if it.get("filename") != final_filename]
     meta.insert(0, {
         "id": audio_id,
-        "name": name.strip(),
+        "name": custom_name,
         "filename": final_filename,
         "created_at": time.strftime("%Y-%m-%d %H:%M:%S")
     })
