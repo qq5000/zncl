@@ -15,6 +15,5 @@ services:
       - ZNCL_ADMIN_PASSWORD=6531684
       - ZNCL_ORGCODE=blspzzzxxx
     volumes:
-      # 持久化存储已上传与入库的自定义录音文件及配置
-      - ./web/uploads:/app/web/uploads
-      - ./web/audio_meta.json:/app/web/audio_meta.json
+      # 持久化存储目录：只需要挂载 uploads 目录即可，所有音频与配置均保存在其中
+      - ./uploads:/app/web/uploads

@@ -396,18 +396,39 @@ def clear_session(req: Dict[str, str]):
     return {"success": True}
 
 
+def get_meta_file_path() -> str:
+    """
+    自适应获取 audio_meta.json 存储路径：
+    1. 优先使用 UPLOAD_DIR 目录下的 audio_meta.json（因为 upload 目录通常会被映射为数据卷，必定是目录）
+    2. 如果 /app/web/audio_meta.json 被 docker 误创建成了文件夹，则自动规避并回退到 UPLOAD_DIR 内
+    """
+    in_upload = os.path.join(UPLOAD_DIR, "audio_meta.json")
+    if os.path.isfile(in_upload):
+        return in_upload
+    if os.path.isfile(AUDIO_META_FILE):
+        return AUDIO_META_FILE
+    # 如果 AUDIO_META_FILE 是目录（Docker 挂载未存在文件时的 bug），则使用 in_upload
+    if os.path.isdir(AUDIO_META_FILE):
+        return in_upload
+    return in_upload
+
 def get_audio_meta() -> List[Dict[str, Any]]:
-    if os.path.exists(AUDIO_META_FILE):
+    target = get_meta_file_path()
+    if os.path.isfile(target):
         try:
-            with open(AUDIO_META_FILE, "r", encoding="utf-8") as f:
+            with open(target, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception:
             return []
     return []
 
 def save_audio_meta(items: List[Dict[str, Any]]):
-    with open(AUDIO_META_FILE, "w", encoding="utf-8") as f:
-        json.dump(items, f, ensure_ascii=False, indent=2)
+    target = get_meta_file_path()
+    try:
+        with open(target, "w", encoding="utf-8") as f:
+            json.dump(items, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print("Save audio meta error:", e)
 
 class AdminVerifyReq(BaseModel):
     password: str

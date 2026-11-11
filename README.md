@@ -36,9 +36,8 @@ services:
       - ZNCL_ADMIN_PASSWORD=6531684   # 管理员后台密码（按需修改）
       - ZNCL_ORGCODE=blspzzzxxx       # 学校机构代码（默认即可）
     volumes:
-      # 持久化存储目录：飞牛 NAS 上的存储路径，确保录音文件与元数据重启不丢失
+      # 持久化存储目录：只需要挂载 uploads 目录，所有音频与元数据配置均保存在其中
       - ./uploads:/app/web/uploads
-      - ./audio_meta.json:/app/web/audio_meta.json
 ```
 
 > 💡 **飞牛使用提示**：
